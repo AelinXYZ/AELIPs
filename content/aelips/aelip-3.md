@@ -88,6 +88,10 @@ Pool 2 Stake your AELIN/sUSD (or ETH) LP and gain a share of 1.5x inflationary r
 
 Deal rewards will not be emitted to pool 1 and 2 stakers initially; the Aelin Council will custody all protocol deal fees and retroactively airdrop them to stakers before the staking rewards contract that automatically lets stakers claim deal fees is deployed.
 
+**Changing Incentives**
+
+Changes to the incentive structures will not go into effect for 30 days after the AELIP outlining the respective updates is passed in a vote by the Aelin Council.
+
 2. **Tokenomics**
 
 For every deal that happens using the Aelin Protocol contracts, a fixed fee of 2% in the underlying deal tokens will be sent to the Aelin Council to hold on behalf of AELIN token holders. In the near future a mechanism for staking $AELIN tokens will be launched. At that point, stakers will be able to claim their pro rata share of all deals using Aelin protocol.
