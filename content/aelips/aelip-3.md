@@ -62,7 +62,7 @@ The token supply will be 5000 and distribution will be as follows:
 
 Close to the launch of the Aelin token a snapshot of each SNX stakers debt amount on L1 and L2 will be taken. 750 Aelin tokens will then be split amongst all stakers based on their debt balance. If a staker has a c-ratio below the target c-ratio on their respective network, their debt balance will only count up to the amount needed to hit the target c-ratio. The extra debt they are holding will not provide them with a higher debt balance score.
 
-The 750 tokens will be claimable by SNX stakers in the form of $vAELIN tokens. Stakers have 1 year to claim their $vAELIN tokens. Initially, $vAELIN will be redeemable for $AELIN 1:1 through an Aelin Pool which will have a 5-day cliff and a 25-day linear vesting period on the underlying $AELIN deal tokens. After the end of the month when all $AELIN tokens from the pool have been vested a new contract will be deployed so anyone with $vAELIN who did not participate in the Aelin Pool can redeem $vAELIN 1:1 for $AELIN for up to one year after which $vAELIN are no longer redeemable.
+The 750 tokens will be claimable by SNX stakers in the form of $vAELIN tokens. Stakers have 1 year to claim their $vAELIN tokens. Initially, $vAELIN will be redeemable for $AELIN 1:1 through an Aelin Pool which will have a 4-day cliff and a 26-day linear vesting period on the underlying $AELIN deal tokens. After the end of the month when all $AELIN tokens from the pool have been vested a new contract will be deployed so anyone with $vAELIN who did not participate in the Aelin Pool can redeem $vAELIN 1:1 for $AELIN for up to one year after which $vAELIN are no longer redeemable.
 
 **Balancer Pool Methodology**
 
