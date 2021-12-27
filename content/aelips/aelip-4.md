@@ -2,7 +2,7 @@
 aelip: 4
 network: Ethereum & Optimism
 title: Open Redemption Period Bug
-status: Draft
+status: Implemented
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Beren
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)
@@ -44,11 +44,12 @@ The bug in the redemption period allows any address to mint an infinite number o
 At the start of the redemption period pool tokens can be redeemed for deal tokens. After redeeming in the pro rata period each address is then eligible to redeem in the open period. However, redemptions in the open period are not counted correctly. This means each address can redeem their remaining pool tokens for deal tokens an unlimited number of times, potentially creating an infinite number of deal tokens. This will create a race condition in the redemption period because there will be many deal tokens and only 250 underlying AELIN tokens.
 
 In order to avoid this bug being exploited the following plan is proposed.
+
 1. The Interfaces will be disabled to prevent anyone from accidentally redeeming during the open period.
 2. If a single redemption occures directly on the contract the AELIN tokens will be distributed manually by the Aelin Council.
-3. In order to disincentivize redemptions directly on the contract, anyone who redeems will lose their sUSD and will receive no AELIN in the subsequent airdrop.
+3. In order to disincentivize redemptions directly on the contract, anyone who redeems will get their sUSD back but will receive no AELIN in the subsequent airdrop.
 
-This plan should ensure no one defects and redeems on the contract during the open period in order to attempt to acquire additional AELIN tokens in excess of their original allocation. Because the incentive to defect is high, the punishment for defection must be equally high. The view held by the council is that the threat of losing both the sUSD and being excluded from the subsequent manual AELIN distribution is sufficient to ensure no one redeems on the contract.
+This plan should ensure no one defects and redeems on the contract during the open period in order to attempt to acquire additional AELIN tokens in excess of their original allocation. Because the incentive to defect is high, the punishment for defection must be equally high. The view held by the council is that the threat of being excluded from the subsequent manual AELIN distribution is sufficient to ensure no one redeems on the contract.
 
 ### Rationale
 
