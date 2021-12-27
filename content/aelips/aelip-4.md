@@ -1,7 +1,7 @@
 ---
 aelip: 4
 network: Ethereum & Optimism
-title: AELIN Council
+title: Open Redemption Period Bug
 status: Draft
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
