@@ -55,8 +55,8 @@ Rewards will be computed off-chain and sent out after the end of the month throu
 Pool: $AELIN/$ETH
 Fee Tier: 1%
 Amount: 44 $AELIN
-Start: January 4th, 2022
-End: February 4th, 2022
+Start: January 5th, 2022
+End: February 5th, 2022
 minPrice: 0
 maxPrice: Infinity
 ```
