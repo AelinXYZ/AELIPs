@@ -1,7 +1,7 @@
 ---
 aelip: 6
 network: Ethereum & Optimism
-title: Pro Rata Period Calculation
+title: Pro Rata Period Calculation and Deal Creation Limits
 status: Draft
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Beren
@@ -15,17 +15,21 @@ created: 2022-01-03
 
 The calculation for purchasers who max their pro rata calculation and are eligible for the open redemption period is incorrect although no funds are at risk from the current implementation. This AELIP proposes to update the AelinPool.sol contract so it works as intended.
 
+Additionally, there exists a bug where a sponsor can create infinite amounts of deals forever for a pool that have no intention of ever being funded in order to brick funds. This is because the purchasers are not allowed to withdraw during the deal funding period in order to ensure the counterparty can access all the purchase tokens when the deal is finally presented. Having a limit of 5 deals per pool fixes this issue. This AELIP also addresses this issue.
+
 ## Abstract
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
 At the moment if a user has 100 pool tokens with a 10% allocation they may accept 10 tokens and qualify for the open redemption period. However, if they withdraw 90 pool tokens for the underlying purchase token and then accept 1 pool token out of their remaining 10 they will still qualify. The updated calculation proposed here will require them to accept the full 10 tokens to qualify no matter how much they withdraw ahead of time.
 
+For the deal creation side, if a sponsor has as script that continuously creates a new deal after the previous one expires they will be able to stop users from withdrawing their funds. A simple limit of 5 deals fixes this issue.
+
 ## Motivation
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-In order for oversubscribed pools to function properly on behalf of all parties, purchasers must be properly de-allocated based on their contributions to the pool. Technically, no funds are at risk with the current implementation but the intention of the pro rata period is to force purchasers to accept their max allocation from their full deposit if they want to enter the open redemption period. This AELIP addresses that issue.
+In order for oversubscribed pools to function properly on behalf of all parties, purchasers must be properly de-allocated based on their contributions to the pool. Technically, no funds are at risk with the current implementation but the intention of the pro rata period is to force purchasers to accept their max allocation from their full deposit if they want to enter the open redemption period. This AELIP addresses that issue. It also fixes a bug where sponsors can create infinite deals, bricking user funds by limiting the amount of deals to 5.
 
 ## Specification
 
@@ -48,6 +52,8 @@ In order to avoid this loophole being exploited by purchasers the following cont
 1. when a purchaser withdraws a new mapping will be added that will track each individual purchasers total amount withdrawn: `mapping(address => uint256) public amountWithdrawn;`
 2. when a purchaser attempts to accept their max pro rata allocation it will check their amount withdrawn to make sure they retain the same allocation: `(proRataConversion * (balanceOf(purchaser) + amountAccepted[purchaser] + amountWithdrawn[purchaser])) / 1e18 - amountAccepted[purchaser]`
 3. Also, for the UI, a global variable will be added that will track the total amount withdrawn by all purchasers: `uint256 public totalAmountWithdrawn;`
+
+For the deal creation side the fix is to add a global counter `uint8 public numberOfDeals;` and a `uint8 constant MAX_DEALS = 5;` variable and then throw a require statement when the amount of deals created has exceeded the limit of 5.
 
 ### Rationale
 
