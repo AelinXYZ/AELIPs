@@ -1,7 +1,7 @@
 ---
 aelip: 6
 network: Ethereum & Optimism
-title: Pro Rata Period Calculation and Deal Creation Limits
+title: Pro Rata Period Calculation, Deal Creation Limits, & Initial Aelin Pool Open Redemptions
 status: Draft
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Beren
@@ -15,7 +15,9 @@ created: 2022-01-03
 
 The calculation for purchasers who max their pro rata calculation and are eligible for the open redemption period is incorrect although no funds are at risk from the current implementation. This AELIP proposes to update the AelinPool.sol contract so it works as intended.
 
-Additionally, there exists a bug where a sponsor can create infinite amounts of deals forever for a pool that have no intention of ever being funded in order to brick funds. This is because the purchasers are not allowed to withdraw during the deal funding period in order to ensure the counterparty can access all the purchase tokens when the deal is finally presented. Having a limit of 5 deals per pool fixes this issue. This AELIP also addresses this issue.
+Additionally, there exists a bug where a sponsor can create infinite amounts of deals forever for a pool that have no intention of ever being funded in order to brick funds. This AELIP also addresses this issue.
+
+Finally, after the completion of the intial $AELIN pool it was found that only 8 transactions of small amounts (see tx hashes below in tech specification) were submitted after the deadline and some purchasers accepted by mistake. Therefore, it is proposed to refund their $sUSD for the open period but allow them to keep their $AELIN allocation for the pro rata period instead of refunding all their $sUSD.
 
 ## Abstract
 
@@ -135,6 +137,19 @@ the changes for this AELIP are in the functions `maxProRataAmount` (which was re
             return maxOpenAvail(purchaser);
         }
     }
+```
+
+Also, here are the 8 transactions submitted by purchasers in the first $AELIN pool during the open redmeption period:
+
+```
+  "0xd036894615103757c454d32b433a3051741271f8434369672b8ac5d84243894a".toLowerCase(), // $1950
+  "0xa809d172637e63a2ce5a3217381c12cb7f44d24731d60248642a76eb574866ef".toLowerCase(), // $230
+  "0xbbd7f386fc8d92975833ee6a1666f19dcf3a6857a8e35a75f914a40624ef70a9".toLowerCase(), // $1000
+  "0x901aea11e9791d2b299c7c4511d0a1b28ecb5aa598f3353139d5cf028c37a202".toLowerCase(), // $1550
+  "0x907ee3e8cb03a8a1674b0e70105c17e38959612431af97bb2ed26df7b5309bcd".toLowerCase(), // $7000
+  "0x8670b8a4b249a6783258003814f4aec11cc684a0e959e4c868aca5bd61739b47".toLowerCase(), // $17
+  "0x9e34a83d91a30af9edbbd9267f60e9b9a4819926a557dc0a6e2817067c05f21d".toLowerCase(), // $5818
+  "0x0d9d596715689910f43a0843b8c59b1104f70faf6aeb541888141755949dd3b1".toLowerCase(), // $6718
 ```
 
 ### Test Cases
