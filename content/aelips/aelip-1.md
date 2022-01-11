@@ -2,7 +2,7 @@
 aelip: 1
 network: Ethereum & Optimism
 title: Aelin Improvement Proposals Purpose and Guidelines
-status: Draft
+status: Implemented
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a
@@ -155,13 +155,13 @@ Once the AELIP is ready for the repository, the AELIP editor will:
 
 - Send a message back to the AELIP author with the next step.
 
-If a AELIP author submits a PR to a AELIP that is already in “Vote Pending” the AELIP editor must notify the council of the change before merging the PR, and if requested move the AELIP back into “Feasibility”
+If an aelip author submits a PR to an aelip that is already in “Vote Pending” the AELIP editor must notify the council of the change before merging the PR, and if requested move the AELIP back into “Feasibility”
 
-If a AELIP author submits a PR to a AELIP that is already in “Approved” or “Implemented” then the AELIP editor must request a review of the change by the Council and, if the change is deemed material by the council, must move the AELIP back to “Feasibility”
+If an aelip author submits a PR to an aelip that is already in “Approved” or “Implemented” then the AELIP editor must request a review of the change by the Council and, if the change is deemed material by the council, must move the AELIP back to “Feasibility”
 
-If a AELIP is in “Approved” or “Implemented” and the CC assigned to the AELIP no longer believes the AELIP is feasible to implement they must notify the Council as soon as is practical that a vote should be held to decide whether to move the AELIP to “Rejected”
+If an aelip is in “Approved” or “Implemented” and the CC assigned to the AELIP no longer believes the AELIP is feasible to implement they must notify the Council as soon as is practical that a vote should be held to decide whether to move the AELIP to “Rejected”
 
-A vote to move a AELIP from “Approved” or “Implemented” to “Rejected” must reference the previous vote and the AELIP should be updated with a note to indicate that it was “Rejected” for infeasibility post Approval.
+A vote to move an aelip from “Approved” or “Implemented” to “Rejected” must reference the previous vote and the AELIP should be updated with a note to indicate that it was “Rejected” for infeasibility post Approval.
 
 Many AELIPs are written and maintained by developers with write access to the Aelin codebase. The AELIP editors monitor AELIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
 

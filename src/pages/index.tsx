@@ -72,10 +72,10 @@ const IndexPage = () => (
     </p>
 
     <p>
-      Once assessed, a AELIP is moved into <code>Feasibility</code> and a Core
+      Once assessed, an aelip is moved into <code>Feasibility</code> and a Core
       Contributor is assigned. The Core Contributor will work with the author to
       conduct a feasibility study. Once the Author and the Core Contributor are
-      satisfied, a AELIP is moved to <code>AC Review Pending</code>. Once the
+      satisfied, an aelip is moved to <code>AC Review Pending</code>. Once the
       Aelin Council has formally reviewed the AELIP during the AELIP
       presentation they can either move it to a vote or send it back to{' '}
       <code>Feasability</code>. A vote is conducted within the{' '}
@@ -98,27 +98,27 @@ const IndexPage = () => (
         Aelin Council and core contributors have assessed it.
       </li>
       <li>
-        <strong>Feasibility</strong> - a AELIP that is being assessed for
+        <strong>Feasibility</strong> - an aelip that is being assessed for
         feasability with an assigned Core Contributor
       </li>
       <li>
-        <strong>AC Review Pending</strong> - a AELIP that is awaiting a Aelin
+        <strong>AC Review Pending</strong> - an aelip that is awaiting a Aelin
         Council Review after the Author and Core Contributor are satisfied with
         feasibility
       </li>
       <li>
-        <strong>Vote Pending</strong> - a AELIP that is awaiting a vote.
+        <strong>Vote Pending</strong> - an aelip that is awaiting a vote.
       </li>
       <li>
-        <strong>Approved</strong> - a AELIP that has successfully reached a
+        <strong>Approved</strong> - an aelip that has successfully reached a
         super majority Aelin Council vote in favour.
       </li>
       <li>
-        <strong>Rejected</strong> - a AELIP that has failed to reach a
+        <strong>Rejected</strong> - an aelip that has failed to reach a
         supermajority Aelin Council vote in favour.
       </li>
       <li>
-        <strong>Implemented</strong> - a AELIP that has been released to
+        <strong>Implemented</strong> - an aelip that has been released to
         main-net.
       </li>
     </ul>
