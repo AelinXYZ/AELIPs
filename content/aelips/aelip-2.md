@@ -2,7 +2,7 @@
 aelip: 2
 network: Ethereum & Optimism
 title: AELIN Council
-status: Draft
+status: Implemented
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a

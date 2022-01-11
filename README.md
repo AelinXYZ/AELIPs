@@ -15,19 +15,19 @@ If your AELIP requires images, the image files should be included in a subdirect
 
 When you believe your AELIP is mature and ready to progress past the Draft phase, you should reach out to a Aelin Council member on discord by searching members with the "Aelin Council" role or finding them within the #governance channel. The Aelin Council will schedule in a call with the AELIP author to go through the AELIP in more detail.
 
-Once assessed, a AELIP is moved into `Feasibility` and a Core Contributor is assigned. The Core Contributor will work with the author to conduct a feasibility study. Once the Author and the Core Contributor are satisfied, a AELIP is moved to `AC Review Pending`. Once the Aelin Council has formally reviewed the AELIP during the AELIP presentation they can either move it to a vote or send it back to `Feasability`. A vote is conducted within the `aelincouncil.eth` snapshot space connected on the [staking](https://staking.aelin.xyz/) dApp. If a vote by the Aelin Council reaches a super majority, the AELIP is moved to `Approved`, otherwise it is `Rejected`.
+Once assessed, an AELIP is moved into `Feasibility` and a Core Contributor is assigned. The Core Contributor will work with the author to conduct a feasibility study. Once the Author and the Core Contributor are satisfied, an AELIP is moved to `AC Review Pending`. Once the Aelin Council has formally reviewed the AELIP during the AELIP presentation they can either move it to a vote or send it back to `Feasability`. A vote is conducted within the `aelincouncil.eth` snapshot space connected on the [staking](https://staking.aelin.xyz/) dApp. If a vote by the Aelin Council reaches a super majority, the AELIP is moved to `Approved`, otherwise it is `Rejected`.
 
-Once the AELIP has been implemented by either the protocol DAO or the AELIP author and relevant parties, the AELIP is assigned the `Implemented` status. There is a 500 sUSD bounty for proposing a AELIP that reaches the `Implemented` phase.
+Once the AELIP has been implemented by either the protocol DAO or the AELIP author and relevant parties, the AELIP is assigned the `Implemented` status. There is a 500 sUSD bounty for proposing an AELIP that reaches the `Implemented` phase.
 
 # AELIP Statuses
 
 - **Draft** - The initial state of a new AELIP before the Aelin Council and core contributors have assessed it.
-- **Feasibility** - a AELIP that is being assessed for feasibility with an assigned Core Contributor
-- **AC_Review_Pending** - a AELIP that is awaiting a Aelin Council Review after the Author and Core Contributor are satisfied with feasibility
-- **Vote_Pending** - a AELIP that is awaiting a vote.
-- **Approved** - a AELIP that has successfully reached a super majority Aelin Council vote in favour.
-- **Rejected** - a AELIP that has failed to reach a super-majority Aelin Council vote in favour.
-- **Implemented** - a AELIP that has been released to main-net.
+- **Feasibility** - an AELIP that is being assessed for feasibility with an assigned Core Contributor
+- **AC_Review_Pending** - an AELIP that is awaiting a Aelin Council Review after the Author and Core Contributor are satisfied with feasibility
+- **Vote_Pending** - an AELIP that is awaiting a vote.
+- **Approved** - an AELIP that has successfully reached a super majority Aelin Council vote in favour.
+- **Rejected** - an AELIP that has failed to reach a super-majority Aelin Council vote in favour.
+- **Implemented** - an AELIP that has been released to main-net.
 
 # Validation
 
