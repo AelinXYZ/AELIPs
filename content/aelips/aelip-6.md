@@ -2,7 +2,7 @@
 aelip: 6
 network: Ethereum & Optimism
 title: Pro Rata Period Calculation, Deal Creation Limits, & Initial Aelin Pool Open Redemptions
-status: Draft
+status: Implemented
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Beren
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)
