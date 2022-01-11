@@ -1,4 +1,4 @@
-# AELIPs [![Discord](https://img.shields.io/discord/413890591840272394.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discord.gg/r75VTheV) [![Twitter Follow](https://img.shields.io/twitter/follow/aelinprotocol.svg?label=aelinprotocol&style=social)](https://twitter.com/aelinprotocol)
+# AELIPs [![Discord](https://img.shields.io/discord/880914235444572210.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discord.gg/r75VTheV) [![Twitter Follow](https://img.shields.io/twitter/follow/aelinprotocol.svg?label=aelinprotocol&style=social)](https://twitter.com/aelinprotocol)
 
 Aelin Improvement Proposals (AELIPs) describe standards for the Aelin platform, including core protocol specifications, client APIs, and contract standards.
 

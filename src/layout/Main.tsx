@@ -71,13 +71,13 @@ const Main: React.FC = ({ children }) => {
                 <li>
                   <a href="https://github.com/AelinXYZ/AELIPs">
                     <GithubIcon className="svg-icon" />
-                    <span className="username">AelinXYZ/AELIPs GitHub</span>
+                    <span className="username">AelinXYZ/AELIPs</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/aelinprotocol">
                     <TwitterIcon className="svg-icon" />
-                    <span className="username">Aelin Twitter</span>
+                    <span className="username">@aelinprotocol</span>
                   </a>
                 </li>
               </ul>
