@@ -2,7 +2,7 @@
 aelip: 3
 network: Ethereum & Optimism
 title: Tokenomics
-status: Implemented
+status: Draft
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a

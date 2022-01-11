@@ -2,7 +2,7 @@
 aelip: 5
 network: Optimism
 title: Pool 2 Liquidity Provision Mechanics
-status: Implemented
+status: Draft
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a
