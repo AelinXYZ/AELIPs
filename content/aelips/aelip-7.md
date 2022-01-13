@@ -25,7 +25,7 @@ Additionally, a helper transfer method for the treasury only that is not needed 
 
 Pool token transfer issues will be resolved by removing all restrictions although this means anyone buying them after the redemption window for a premium will not have access to the deal and will have to withdraw them for the purchase currency.
 
-Deal token transfers will be blocked due to issues with claiming math and the incompatibility with the current logic if they are put into contracts and AMMs. This will be researched and udpated in future factory contracts.
+Deal token transfers will be blocked due to issues with claiming math and the incompatibility with the current logic if they are put into contracts and AMMs. This may be researched and udpated in future factory contracts if trading is desired.
 
 Additionally, a helper transfer method for the treasury only that makes it easier to send out deal fees that is not needed will be removed in this AELIP.
 
@@ -33,11 +33,11 @@ Additionally, a helper transfer method for the treasury only that makes it easie
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-As Aelin Protocol gets more popular there is a natural inclination for those who miss out on the purchase windows to speculate by buying the pool tokens at a premium for access to a deal or for holders wishing to exit their position to sell at a loss as well. There are many reasons to trade pool tokens.
+As Aelin Protocol gets more popular there is a natural inclination for those who miss out on the purchase windows to speculate by buying the pool tokens at a premium for access to a deal; furthermore, there are many reasons to trade pool tokens.
 
-Additionally, since deal tokens represent vesting schedules the ability to trade them for early liquidity on deals in advance of the vesting contract conclusion is very appealing to holders of the deal tokens who do not want to wait the full vesting period for an exit.
+Additionally, since deal tokens represent vesting schedules the ability to trade them for early liquidity on deals in advance of the vesting contract conclusion may be appealing to holders of the deal tokens who do not want to wait the full vesting period for an exit. The re-enabling of deal token transfers will be a community decision and will require some R&D on the contract side.
 
-However, due to the fact that pool and deal tokens are not typical ERC20s, careful thought needs to be put into the transfer process so the system works as intended for purchasers and deal token holders. At the moment pool trading will be allowed but deal trading will not be allowed until a new suite of factory contracts are deployed with different claiming logic that will enable transfers.
+Due to the fact that pool and deal tokens are not typical ERC20s, careful thought needs to be put into the transfer process so the system works as intended for purchasers and deal token holders. This AELIP proposes fixes so pool trading will be allowed but deal token trading will not be allowed. Blocking the trading of deal tokens puts purchasers in alignment with the counter party so the community may wish to keep this functionality in place rather than update the claiming logic to allow for transfers.
 
 ## Specification
 
@@ -53,11 +53,11 @@ However, due to the fact that pool and deal tokens are not typical ERC20s, caref
 
 <!--This is a high-level overview of *how* the AELIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
-For pool tokens currently you are unable to transfer them after a deal has been created. The intent is to force purchaser to accept the deal or withdraw to their purchase currency at this point in time; however, any pool tokens sitting in a contract, such as an AMM, will not be transferrable, locking them once a deal is created. The solution for pool tokens is to enable transfer at ant point in time. However, anyone receiving them after the redemption window ends will be forced to withdraw them for the underlying purchase currency.
+For pool tokens, currently you are unable to transfer them after a deal has been created. The intent is to force purchaser to accept the deal or withdraw to their purchase currency at this point in time; however, any pool tokens sitting in a contract, such as an AMM, will not be transferrable, locking them once a deal is created. The solution for pool tokens is to enable transfer at ant point in time. However, anyone receiving them after the redemption window ends will be forced to withdraw them for the underlying purchase currency.
 
-For deal tokens, at the moment you are allowed to transfer them freely until you have vested all your tokens. Due to the deal tokens being wrapped vesting schedules, when you transfer a deal token it triggers a claim of the underlying to that point in time for both the sender and recipient; this maintains the vesting math on both sides up to and after that point in time.
+For deal tokens, at the moment you are allowed to transfer them freely until you have vested all your tokens. Due to the deal tokens being wrapped vesting schedules, when you transfer a deal token it triggers a claim of the underlying to that point in time for both the sender and recipient; this maintains the vesting math on both sides up to and after that point in time, however it causes issues with AMMs.
 
-At the end of the vesting period you may not transfer any deal tokens because all your deal tokens are auto claimed, so there will not be any tokens to receive. The underlying deal tokens will be claimed by the sender and then the recipient will not receive anything. Putting deal tokens in AMMs will have an issue as they will be claiming the underlying deal tokens during transfers. The interim solution for deal tokens is to block transfers while more research is done around creating a new formula for transferring and claiming that allows for transfers to work with AMMs or a custom AMM and to protect holders from mistakes causing loss of funds.
+Putting deal tokens in AMMs will have an issue as they will be claiming the underlying deal tokens during transfers. The interim solution for deal tokens is to block transfers while more research is done around creating a new formula for transferring and claiming that allows for transfers to work with AMMs or a custom AMM and to protect holders from mistakes causing loss of funds.
 
 Additionally, this AELIP removes an additional function added to make it easier for the treasury to transfer deal fees, since they are early custodians while automated staking is being worked on. this method is in fact not needed due to the ability to use a MultiCall contract to reduce the friction of performing many transactions.
 
@@ -67,7 +67,7 @@ Additionally, this AELIP removes an additional function added to make it easier 
 
 For the pool tokens there were two potential options. First, we could block transfers, second, we could enable transfers after the redemption period starts and anyone purchasing or receiving these tokens will need to be aware that they are only going to be able to receive the underlying purchase currency at this point in time. It is deemed an acceptable tradeoff that anyone receiving their pool tokens after the redemption window can only use them to withdraw the underlying purchase currency. This allows for speculation around pool tokens.
 
-On the deal token side due to the complexity around vesting schedules and claiming a new system will be devised that will allow for the safe handling of transfers and the ability for holders to obtain early liquidity. However, this is a complex issue and we need to block transfers since there is an issue with using AMMs with the current system. There is simply not enough time to implement a more effective system at this point in time, but new factories will be deployed with an update on this in the future after the topic is researched more extensively and another AELIP is proposed.
+On the deal token side due to the complexity around vesting schedules and claiming transfers will be blocked.
 
 ### Technical Specification
 
