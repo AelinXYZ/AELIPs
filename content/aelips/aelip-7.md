@@ -15,7 +15,7 @@ created: 2021-01-12
 
 This AELIP proposes to block transfers for pool and deal tokens as allowing transfers either presents an issue with external AMMs or with internal calculations needed for Aelin pools to function properly.
 
-A special transfer method for deal tokens will remain that only the Aelin Council can access for sending custodied deal fees to Aelin stakers.
+Only the Aelin Council will be able to transfer deal tokens for the purpose of sending custodied deal fees to $AELIN stakers.
 
 ## Abstract
 
@@ -23,9 +23,7 @@ A special transfer method for deal tokens will remain that only the Aelin Counci
 
 Pool token transfers will be blocked due to issues with the pro rata calculations and deallocations. Having transfers open makes the pro rata calculations difficult, while restricting transfers to make the pro rata calculations work opens up issues with funds getting stuck in AMMs.
 
-Deal token transfers will be blocked due to issues with claiming math and the incompatibility with the current logic if they are put into contracts and AMMs. This may be researched and udpated in future factory contracts if trading is desired.
-
-Only a helper transfer method for the treasury to send deal fees to stakers will be allowed.
+Deal token transfers will be blocked due to issues with claiming math and the incompatibility with the current logic if they are put into contracts and AMMs. The Aelin Council will be the only unrestricted account for purposes of distributing deal fees to $AELIN stakers. This may be researched and udpated in future factory contracts if trading is desired.
 
 ## Motivation
 
