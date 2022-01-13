@@ -35,7 +35,7 @@ Additionally, a helper transfer method for the treasury only that makes it easie
 
 As Aelin Protocol gets more popular there is a natural inclination for those who miss out on the purchase windows to speculate by buying the pool tokens at a premium for access to a deal; furthermore, there are many reasons to trade pool tokens.
 
-Additionally, since deal tokens represent vesting schedules the ability to trade them for early liquidity on deals in advance of the vesting contract conclusion may be appealing to holders of the deal tokens who do not want to wait the full vesting period for an exit. The re-enabling of deal token transfers will be a community decision and will require some R&D on the contract side.
+Additionally, holders of deal tokens may wish to trade them. The re-enabling of deal token transfers will be a community decision and will require some R&D on the contract side.
 
 Due to the fact that pool and deal tokens are not typical ERC20s, careful thought needs to be put into the transfer process so the system works as intended for purchasers and deal token holders. This AELIP proposes fixes so pool trading will be allowed but deal token trading will not be allowed. Blocking the trading of deal tokens puts purchasers in alignment with the counter party so the community may wish to keep this functionality in place rather than update the claiming logic to allow for transfers.
 
