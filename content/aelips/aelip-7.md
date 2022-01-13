@@ -15,7 +15,7 @@ created: 2021-01-12
 
 Since pool tokens and deal tokens are wrapped ERC20 versions of the purchase currency and vesting underlying deal token contracts respectively, they may be transferred per the ERC20 standard. However, these are not typical ERC20 tokens and need to be managed carefully.
 
-This AELIP addresses changes to the pool and deal contracts transfer methods to protect purchasers while further exploration is made for future factory contracts.
+This AELIP addresses changes to the pool and deal contracts transfer methods to protect purchasers and speculators who may wish to trade pool and deal tokens.
 
 Additionally, a helper transfer method for the treasury only that is not needed will be removed in this AELIP.
 
