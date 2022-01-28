@@ -51,13 +51,13 @@ Secondly, the deployment of Aelin Protocol on other chains. The team is currentl
 
 <!--This is a high-level overview of *how* the AELIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
-The L1 token will be deployed as the first step using Celer Network's [MintSwapCanonicalToken contract](https://github.com/celer-network/sgn-v2-contracts/blob/main/contracts/pegged/tokens/MintSwapCanonicalToken.sol).
+The L1 token will be deployed as a first step using Celer Network's [MintSwapCanonicalToken contract](https://github.com/celer-network/sgn-v2-contracts/blob/main/contracts/pegged/tokens/MintSwapCanonicalToken.sol).
 
 This contract wraps the ERC20 token standard contract and adds the following functionalities:
 
     - `swapBridgeForCanonical(address _bridgeToken, uint256 _amount)`: the deposit function. Allows a swap of L2 tokens (bridge tokens) for L1 tokens (canonical tokens). The function will mint the required amount of canonical tokens from the L1 supply. The bridge tokens will then be deposited into the contract and the exact same amount of canonical tokens will be sent to msg.sender.
     - `swapCanonicalForBridge(address _bridgeToken, uint256 _amount)`: the withdraw function. Allows a swap of L1 tokens (canonical tokens) for L2 tokens (bridge tokens). The function will burn the requited amount of canonical tokens from the L1 supply. The bridge tokens will then be unlocked and sent to msg.sender.
-    - `setBridgeTokenSwapCap(address _bridgeToken, uint256 _swapCap)`: the whitelisting function. Allows the owner (Aelin DAO) to add/remove one or multiple addresses (swap supplies), specifying a cap. Once added, these addresses will then be able to mint/burn canonical tokens as whenever they want as long as the minting cap is respected. It will revert otherwise.
+    - `setBridgeTokenSwapCap(address _bridgeToken, uint256 _swapCap)`: the whitelisting function. Allows the owner (Aelin DAO) to add/remove one or multiple addresses (swap supplies), specifying a cap. Once added, these addresses will then be able to mint/burn canonical tokens when needed as long as the minting cap is respected. It will revert otherwise.
 
 Once deployed, the Aelin DAO will nominate Celer Bridge as a swap supply, which will give minting/burning and distribution power to the protocol.
 
