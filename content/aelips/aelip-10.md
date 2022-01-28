@@ -19,7 +19,7 @@ This AELIP proposes to re-enable transfers for pool tokens. Pool tokens will be 
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-Once this AELIP is implemented, pool tokens may be put into an AMM or OTC based order book contract. These funds will be tradable/ tarnsferrable until the deal acceptance window starts, at which point they will be blocked until after the window is closed.
+Once this AELIP is implemented, pool tokens may be put into an AMM or other types of trading contracts. These funds will be tradable/ tarnsferrable until the deal acceptance window starts, at which point they will be blocked until after the window is closed.
 
 Once the window is closed the pool tokens may be transferred again; however, at this point the tokens will not be eligible for the deal but may still be withdrawn for the purchase currency.
 
