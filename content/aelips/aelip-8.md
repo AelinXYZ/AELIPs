@@ -4,7 +4,7 @@ network: Ethereum & Optimism
 title: Aelin Bridge to Layer 1
 status: Draft
 author: cb0x (@0xcdb)
-Release: TBD
+Release: Nuada
 Implementor: cb0x (@0xcdb)
 created: 2021-01-27
 ---
@@ -31,11 +31,9 @@ The token contract can be found [here](https://github.com/celer-network/sgn-v2-c
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-AELIN is a native Optimism token, which means it is only available on Optimism Layer 2. Even though more and more capital and protocols are deployed on OP every day, there are still some good reasons why AELIN should also be deployed on Layer 1:
+AELIN is a native Optimism token, which means it is only available on Optimism L2. Even though more and more capital and protocols are deployed on OP every day, there are still some good reasons why AELIN should also be deployed on L1, the main one being about improving the liquidity.
 
-Firstly, to improve the liquidity. Most of the capital is still on Layer 1 and a part of it could still be reluctant to go to Layer 2 for various reasons. Pools could be created on Uniswap and/or Sushiswap and allow the L1 users to provide liquidity. As indicated in [Aelip 3](https://aelips.aelin.xyz/aelips/aelip-3/), 250 AELIN will be distributed to a Balancer pool as staking rewards. Unfortunately Balancer isn't available on OP yet, which makes the L1 deployment a necessity so the distribution plan listed in this AELIP can be respected.
-
-Secondly, the deployment of Aelin Protocol on other chains. The team is currently considering an expansion on Avalanche and/or Polygon. For this to happen, it is essential that the AELIN token is deployed on L1 first, in order to facilitate all the bridging mechanisms between the chains.
+Most of the capital is still on L1 and a part of it could still be reluctant to go to L2 for various reasons. Pools could be created on Uniswap and/or Sushiswap and allow the L1 users to provide liquidity. As indicated in [Aelip 3](https://aelips.aelin.xyz/aelips/aelip-3/), 250 AELIN will be distributed to a Balancer pool as staking rewards. Unfortunately Balancer isn't available on OP yet, which makes the L1 deployment a necessity so the distribution plan listed in this AELIP can be respected.
 
 ## Specification
 
