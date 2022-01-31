@@ -13,7 +13,7 @@ created: 2021-01-28
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-This AELIP proposes to re-enable transfers for pool tokens. Pool tokens will be transferrable before and after the deal acceptance window, but will be blocked during the acceptance window so the allocation calculations can work properly.
+This AELIP proposes to re-enable transfers for pool tokens. Pool tokens will be transferrable before and after the deal acceptance window, but will be blocked during the acceptance window so the deal allocation calculations can work properly.
 
 ## Abstract
 
