@@ -2,7 +2,7 @@
 aelip: 7
 network: Ethereum & Optimism
 title: Transfer Updates
-status: Draft
+status: Implemented
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Thranduil
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)
