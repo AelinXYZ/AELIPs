@@ -59,7 +59,7 @@ There were a number of solutions discussed to address this bug. The fundamental 
 
 ### Technical Specification
 
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
+<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Aelin currently exposes or the creations of new ones.-->
 
 In the current contracts there are two redemption windows: Pro rata and open redemption. During the pro rata period, capital in the pool is allocated proportionately to their share of capital in the pool. Anyone who fails to redeem their pool tokens in this period may withdraw their purchase tokens. At the end of the pro rata period and start of the open redemption period, the remaining allocation is available to all purchasers who maxed out their allocation in the pro rata period.
 

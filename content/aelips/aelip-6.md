@@ -65,7 +65,7 @@ While technically the current implementation does not cause a loss of funds and 
 
 ### Technical Specification
 
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
+<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Aelin currently exposes or the creations of new ones.-->
 
 the changes for this AELIP are in the functions `maxProRataAmount` (which was renamed for clarity from `maxProRataAvail`), `_withdraw` and `maxDealAccept`, the latter of which is an external view method only for clients to call.
 
