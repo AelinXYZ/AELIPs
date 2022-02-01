@@ -65,7 +65,7 @@ Any AELIPs proposed pertinent to the Council operations and governance that are 
 
 ### Technical Specification
 
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
+<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Aelin currently exposes or the creations of new ones.-->
 
 ### Test Cases
 

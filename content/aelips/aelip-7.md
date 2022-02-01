@@ -63,7 +63,7 @@ On the deal token side due to the complexity around vesting schedules and claimi
 
 ### Technical Specification
 
-<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
+<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Aelin currently exposes or the creations of new ones.-->
 
 The changes on the pool and deals contracts are modifiers that blocks all transfers except for those made by the treasury which will send both the deal fees as well as the underlying to stakers.
 
