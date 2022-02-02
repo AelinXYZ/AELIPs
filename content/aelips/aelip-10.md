@@ -2,7 +2,7 @@
 aelip: 10
 network: Ethereum & Optimism
 title: Re-enable Pool Transfers
-status: Draft
+status: Vote_Pending
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Nuada
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)

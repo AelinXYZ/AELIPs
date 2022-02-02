@@ -2,7 +2,7 @@
 aelip: 11
 network: Ethereum & Optimism
 title: AEGIS
-status: Draft
+status: Vote_Pending
 author: Matt (@MattLosquadro-Synthetix)
 Release: Nadua
 Implementor: n/a
@@ -15,8 +15,7 @@ created: 01-31-2022
 
 This AELIP proposes to pay a fixed $250 sUSD stipend to the AEGIS for their discord moderation and continued help in answering community questions.
 
-New AEGIS’ are to be recommended and approved by the AELIN Council by simple majority vote. 
-
+New AEGIS’ are to be recommended and approved by the AELIN Council by simple majority vote.
 
 ## Abstract
 
@@ -24,8 +23,7 @@ New AEGIS’ are to be recommended and approved by the AELIN Council by simple m
 
 The Aelin Council is instructed to distribute $250 to each AEGIS on Discord every month to their provided Ethereum address.
 
-New AEGIS’ are to be recommended and approved by the AELIN Council by simple majority vote. 
-
+New AEGIS’ are to be recommended and approved by the AELIN Council by simple majority vote.
 
 ## Motivation
 
@@ -36,7 +34,6 @@ While not a protocol issue, the current framework for appointing and relying on 
 This AELIP removes this centralization by relying on the recommendation and approval of any AEGIS by the Aelin Council.
 
 Further, instead of relying on volunteers for a vital role, this AELIP proposes to pay the AEGIS’ a fixed stipend for the role that they provide.
-
 
 ## Specification
 
@@ -57,8 +54,6 @@ It rewards a valuable service to the community. Most Discords have relied on vol
 
 N/A
 
-
-
 ### Technical Specification
 
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
@@ -74,5 +69,3 @@ N/A
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
-
-
