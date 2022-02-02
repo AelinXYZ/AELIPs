@@ -2,7 +2,7 @@
 aelip: 9
 network: Ethereum
 title: Balancer + AELIN/ETH Pool 2 on Ethereum L1
-status: Draft
+status: Vote_Pending
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: Nuada
 Implementor: n/a
