@@ -2,7 +2,7 @@
 aelip: 8
 network: Ethereum & Optimism
 title: Aelin Bridge to Layer 1
-status: Vote_Pending
+status: Implemented
 author: cb0x (@0xcdb)
 Release: Nuada
 Implementor: cb0x (@0xcdb)
