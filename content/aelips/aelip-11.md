@@ -2,7 +2,7 @@
 aelip: 11
 network: Ethereum & Optimism
 title: AEGIS
-status: Vote_Pending
+status: Implemented
 author: Matt (@MattLosquadro-Synthetix)
 Release: Nadua
 Implementor: n/a
