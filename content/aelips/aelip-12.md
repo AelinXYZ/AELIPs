@@ -1,7 +1,7 @@
 ---
 aelip: 12
 network: Ethereum & Optimism
-title: Aelin Treasury Policy
+title: Treasury Management
 status: Draft
 author: calavera
 Release: n/a
@@ -13,7 +13,7 @@ created: 03-09-2022
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-This AELIP proposes to formalise a policy for usage and changes to AELIN’s Treasury. This AELIP is an improvement over currently approved AELIP-2, section “Treasury Management”
+This AELIP proposes to formalise rules for usage and changes to AELIN’s Treasury. This AELIP is an improvement over currently approved AELIP-2, section “Treasury Management”
 
 ## Abstract
 
@@ -45,8 +45,8 @@ The Aelin Council is the governing body of the Aelin Protocol which also holds t
 **Aelin Treasury Policy**
 1. The Treasury will be managed by a multisig voting mechanism. A supermajority of Aelin Council seats (N) `(N/2 + 1 - if N is even or to Ceiling(N/2) - if N is odd)` is the required number for a decision to reach consensus.
 2. The Aelin Council must work together with the Core Contributors to produce Treasury Reports on at least Quarterly basis and present to the Community for discussion
-3. The Aelin Council does not need to create new AELIPs as long as the transaction is allowed by this policy
-4. The Aelin Council is allowed to create new AELIPs to amend or change the rules set in this policy
+3. The Aelin Council does not need to create new AELIPs as long as the transaction is allowed by this AELIP
+4. The Aelin Council is allowed to create new AELIPs to amend or change the rules set in this AELIP
 5. The Aelin Council is allowed to execute transactions for protocol operations such as:
     -  necessary payments (ex. 3rd parties),
     - recurrent payments (ex. salaries & contractors),
