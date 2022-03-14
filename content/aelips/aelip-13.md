@@ -46,6 +46,7 @@ Incentivised Aelin Pools
 - Investor award is 3% of their accepted deal token value in $AELIN (capped at 0.2 $AELIN per investor)
 - All deals will be reviewed by the Aelin Council and any sponsor or investor trying to game the rewards program may be omitted from rewards on a case by case basis (e.g. sponsor does not provider a legitimate deal or by a larger investor splitting funds across many small wallets in a single deal)
 - Once the incentives for all 30 $AELIN tokens have been finalized or the deadline is reached (whichever is first), a merkle drop contract will be deployed for participants to claim their AELIN rewards.
+- the price of the Investment tokens and AELIN tokens used in the calculations will be taken from market rates on coingecko at the time of the award distribution after the program concludes.
 
 ### Rationale
 
