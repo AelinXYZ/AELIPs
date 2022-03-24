@@ -4,7 +4,7 @@ network: Ethereum & Optimism
 title: Incentivized Pools
 status: Vote_Pending
 author: Alex the Bored Ape and Calavera (@AlexTheBoredApe) (@Calavera)
-Release: Bernard
+Release: n/a
 Implementor: n/a
 created: 03-10-2022
 ---
@@ -40,7 +40,7 @@ N/A
 Incentivised Aelin Pools
 
 - Amount: 30 $AELIN
-- Deadline: End of April, UTC time
+- Deadline: End of May, UTC time
 - Minimum deal accepted to qualify: $200K USD equivalent in Investment tokens. Investment tokens without a market value do not qualify
 - Sponsor award is 2% of total value of accepted deal tokens in $AELIN (capped at 2 $AELIN per pool)
 - Investor award is 3% of their accepted deal token value in $AELIN (capped at 0.2 $AELIN per investor)

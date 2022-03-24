@@ -2,7 +2,7 @@
 aelip: 12
 network: Ethereum & Optimism
 title: Treasury Management
-status: Draft
+status: Vote_Pending
 author: calavera
 Release: n/a
 Implementor: n/a
@@ -43,21 +43,22 @@ The Aelin Council is the governing body of the Aelin Protocol which also holds t
 <!--This is a high-level overview of *how* the AELIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
 **Aelin Treasury Policy**
+
 1. The Treasury will be managed by a multisig voting mechanism. A supermajority of Aelin Council seats (N) `(N/2 + 1 - if N is even or to Ceiling(N/2) - if N is odd)` is the required number for a decision to reach consensus.
 2. The Aelin Council must work together with the Core Contributors to produce Treasury Reports on at least Quarterly basis and present to the Community for discussion
 3. The Aelin Council does not need to create new AELIPs as long as the transaction is allowed by this AELIP
 4. The Aelin Council is allowed to create new AELIPs to amend or change the rules set in this AELIP
 5. The Aelin Council is allowed to execute transactions for protocol operations such as:
-    -  necessary payments (ex. 3rd parties),
-    - recurrent payments (ex. salaries & contractors),
-    - transferring funds to contracts (ex. ecosystem incentives and inflationary rewards), 
-    - refunding deployment and transaction costs to Aelin Council members and Core Contributors,
-    - vesting of tokens to Core and Early Contributors
+   - necessary payments (ex. 3rd parties),
+   - recurrent payments (ex. salaries & contractors),
+   - transferring funds to contracts (ex. ecosystem incentives and inflationary rewards),
+   - refunding deployment and transaction costs to Aelin Council members and Core Contributors,
+   - vesting of tokens to Core and Early Contributors
 6. The Aelin Council is allowed to make changes to the Treasury distribution, such as:
-    - acquire & swap assets
-    - move assets to other networks provided there is a multisig owned by the Aelin Council
-    - invest into Liquidity Pools, Yield Farms and similar protocols
-    - invest into other DAOs
+   - acquire & swap assets
+   - move assets to other networks provided there is a multisig owned by the Aelin Council
+   - invest into Liquidity Pools, Yield Farms and similar protocols
+   - invest into other DAOs
 7. The Aelin Council is allowed to launch future Aelin pools to diversify & increase treasury assets
 8. The Aelin Council will initially hold the 2% fee from completed Aelin Pools on behalf of the community until AELIN staking and fee distribution is enabled
 
