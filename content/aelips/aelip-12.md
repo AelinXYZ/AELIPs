@@ -2,7 +2,7 @@
 aelip: 12
 network: Ethereum & Optimism
 title: Treasury Management
-status: Vote_Pending
+status: Implemented
 author: calavera
 Release: n/a
 Implementor: n/a
