@@ -2,7 +2,7 @@
 aelip: 14
 network: Ethereum & Optimism
 title: Updated Tokenomics
-status: Draft
+status: Vote_Pending
 author: Alex the Bored Ape and cb0x (@AlexTheBoredApe) (@cb0x)
 Release: Bernard
 Implementor: n/a
@@ -45,7 +45,7 @@ This AELIP will address this issue by allowing stakers to claim AELIN, a single 
 
 Since this AELIP will update AELIN tokenomics and the way staking works, a decent amount of changes and improvements are expected. These changes can be divided into the following sections:
 
-- Protocol fees: Underlying deal tokens will be collected directly instead of wrapped deal tokens when accepting a deal in the AelinPool contract. In the current model, wrapped deal tokens are minted and sent to the investor, the sponsor and the Aelin treasury. Then the investment tokens are sent to the holder. This AELIP will update this part specifically so no wrapped deal tokens are sent to the treasury, only the underlying deal tokens directly. However, these underlying deal tokens will be subject to a 6 month escrow before they can be sold by the protocol to buyback AELIN tokens.
+- Protocol fees: Underlying deal tokens will be collected directly instead of wrapped deal tokens when accepting a deal in the AelinPool contract. In the current model, wrapped deal tokens are minted and sent to the investor, the sponsor and the Aelin treasury. Then the investment tokens are sent to the holder. This AELIP will update this part specifically so no wrapped deal tokens are sent to the treasury, only the underlying deal tokens directly. However, these underlying deal tokens will be subject to a 6 month escrow before they can be sold by the protocol to buyback AELIN tokens. The amount of time deal tokens are escrowed for will be updatable by a smart contract function only the Aelin Council may call.
 
 - Aelin Buyback: The buyback logic will sit in the customized Aelin factory contracts that only the Council can access as the sponsor. These custom factories will work exactly like a traditional Upfront Aelin factory (a new factory where the deal is known upfront which is currently under development) except the Aelin Council is the only account that may be a sponsor and there are no protocol fees since these are the pool where the fees will be sold to investors. If the token is not yet trading on any network the Council may delay the sale until there is sufficient liquidity to support a sale price for the Aelin Pool.
 

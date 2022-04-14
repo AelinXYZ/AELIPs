@@ -2,7 +2,7 @@
 aelip: 13
 network: Ethereum & Optimism
 title: Incentivized Pools
-status: Vote_Pending
+status: Implemented
 author: Alex the Bored Ape and Calavera (@AlexTheBoredApe) (@Calavera)
 Release: n/a
 Implementor: n/a
