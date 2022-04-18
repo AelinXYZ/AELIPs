@@ -25,11 +25,15 @@ In the current state of the protocol, the vesting cliff and vesting expiry are s
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-Starting the vesting schedule just after the deal is created might be problematic if counter parties take too much time to fund the deal. It could lead to investors potentially being able to vest tokens they don't have yet.
+Starting the vesting schedule just after the deal is created might be problematic if counter parties take too much time to fund the deal. It could lead to investors vesting tokens earlier than they should.
 
-Example: a deal with a 2 weeks vesting cliff is created. Investors can't accept it because the holder hasn't funded the deal yet. The 2 weeks period has passed and now the investors should technically be able to vest their tokens according to what is shown in the contract, but can't because they haven't been able to accept the deal yet and redeem their deal tokens. After another 2 weeks the holder finally funds the deal, investors accept and are able to directly vest their tokens (or a part of it, depending on what the schedule is). There is two issues here. Firstly, investors were only able to vest their tokens 4 weeks after the deal was created, while the contract showed a vesting cliff of only two weeks. Secondly, the holder (counter party) funds the deal and sees that investors are able to vest a part of their tokens directly, without an initial wait. This could lead to both parts being unhappy about the deal.
+Example: a deal with a 2 weeks vesting cliff and 3 week holder funding period is created. After 2 weeks the deal is not funded and investors can't accept the deal because the holder hasn't funded it yet. However, at this point the 2 week vesting cliff has passed, but the investors can not even redeem their deal tokens yet. 
 
-To fix this, this AELIP will introduce a change which will start the vesting schedule only after a deal is funded. If it takes too long, investors will still be able to withdraw their investment tokens and make the choice to not be part of the deal.
+After another few days the holder finally funds the deal, investors accept it and are able to directly vest tokens without the intended vesting cliff of 2 weeks. The main issue here is an investor may be able to vest tokens sooner than expected since the vesting timing should start when the deal is funded, not when the deal is created. This is good for investors who vest earlier than expected, but bad for counterparty's that are setting the terms of the deal. 
+
+Given that most deals will be funded quickly after the deal is created, and that most vesting periods are either set to 0 or long periods of time this is generally not a significant issue for the protocol, but for deals with shorter vesting periods with delayed funding times this is a problem.
+
+To fix this, this AELIP will introduce a change which will start the vesting schedule only after a deal is funded.
 
 ## Specification
 
