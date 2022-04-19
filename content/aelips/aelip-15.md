@@ -2,7 +2,7 @@
 aelip: 15
 network: Ethereum & Optimism
 title: NFT collection whitelist
-status: Draft
+status: Vote_Pending
 author: Alex the Bored Ape and cb0x (@AlexTheBoredApe) (@cb0x)
 Release: n/a
 Implementor: n/a
