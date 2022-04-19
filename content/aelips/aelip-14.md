@@ -51,8 +51,6 @@ Since this AELIP will update AELIN tokenomics and the way staking works, a decen
 
 - Staking rewards: The staking experience will not alter for users from what they experience today. However, the amount of AELIN given to stakers will no longer come from treasury funds. Instead, the AELIN given to stakers (70%) will come from a buyback program once a quarter and the rewards from the buyback will be emitted over a quarter (13 weeks) split between pool 1 (25%) and pool 2 (45%).
 
-Since there is a delay between the initial deals on a chain and the AELIN rewards distribution to stakers there will be a bootstrapping phase on each new chain where the Council will sell AELIN tokens in an initial pool and then award inflationary tokens to stakers over the initial period. The Council will manage the sale of AELIN tokens and inflationary rewards on each chain at their own discretion.
-
 ### Rationale
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
