@@ -3,7 +3,7 @@ aelip: 16
 network: Ethereum & Optimism
 title: Vesting schedule starts when deal is funded
 status: Draft
-author: cb0x (@cb0x)
+author: Alex the Bored Ape and cb0x (@AlexTheBoredApe) (@cb0x)
 Release: n/a
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)
 created: 04-14-2022
@@ -27,9 +27,9 @@ In the current state of the protocol, the vesting cliff and vesting expiry are s
 
 Starting the vesting schedule just after the deal is created might be problematic if counter parties take too much time to fund the deal. It could lead to investors vesting tokens earlier than they should.
 
-Example: a deal with a 2 weeks vesting cliff and 3 week holder funding period is created. After 2 weeks the deal is not funded and investors can't accept the deal because the holder hasn't funded it yet. However, at this point the 2 week vesting cliff has passed, but the investors can not even redeem their deal tokens yet. 
+Example: a deal with a 2 weeks vesting cliff and 3 week holder funding period is created. After 2 weeks the deal is not funded and investors can't accept the deal because the holder hasn't funded it yet. However, at this point the 2 week vesting cliff has passed, but the investors can not even redeem their deal tokens yet.
 
-After another few days the holder finally funds the deal, investors accept it and are able to directly vest tokens without the intended vesting cliff of 2 weeks. The main issue here is an investor may be able to vest tokens sooner than expected since the vesting timing should start when the deal is funded, not when the deal is created. This is good for investors who vest earlier than expected, but bad for counterparty's that are setting the terms of the deal. 
+After another few days the holder finally funds the deal, investors accept it and are able to directly vest tokens without the intended vesting cliff of 2 weeks. The main issue here is an investor may be able to vest tokens sooner than expected since the vesting timing should start when the deal is funded, not when the deal is created. This is good for investors who vest earlier than expected, but bad for counterparty's that are setting the terms of the deal.
 
 Given that most deals will be funded quickly after the deal is created, and that most vesting periods are either set to 0 or long periods of time this is generally not a significant issue for the protocol, but for deals with shorter vesting periods with delayed funding times this is a problem.
 
