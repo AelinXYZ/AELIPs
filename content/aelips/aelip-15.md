@@ -60,8 +60,8 @@ When an Investor calls the purchasePoolTokens method on the contract, the functi
 For an ERC-721 collection pool, there are 3 potential rules that may be created for an investor holding a NFT:
 
 1. Sponsors may allow each wallet holding a qualified NFT to deposit an unlimited amount of Investment tokens
-2. a certain amount of Investment tokens per wallet regardless of the number of qualified NFTs held
-3. a certain amount of Investment tokens per qualified NFT held
+2. A certain amount of Investment tokens per wallet regardless of the number of qualified NFTs held
+3. A certain amount of Investment tokens per qualified NFT held
 
 Under scenario 1, any investor holding a qualified NFT may participate in the pool but the NFT they participate with is blacklisted after the deposit event. If an investor holds multiple NFTs they must select the one they want to use before a deposit event. The remaining NFTs they hold remain eligible for participating in the deal at a later point in time.
 
