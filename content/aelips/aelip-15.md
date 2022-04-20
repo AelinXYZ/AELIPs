@@ -13,7 +13,7 @@ created: 04-08-2022
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-This AELIP proposes to add the ability to create pools which only non-fungible token (NFT) collections may access. Instead of a size-limited address-based whitelist or a deal that is open to the public, sponsors may now create pools specifically for one or multiple NFT collections. 
+This AELIP proposes to add the ability to create pools which only non-fungible token (NFT) collections may access. Instead of a size-limited address-based whitelist or a deal that is open to the public, sponsors may now create pools specifically for one or multiple NFT collections.
 
 Pools may consist of one or many ERC-721 collections, or one or many ERC-1155 collections, but both ERC-721 and ERC-1155 collections are not allowed together in the same pool. Additionally, due to their historical significance, cryptopunks are supported with the same functionality as if they were an ERC-721 collection.
 
@@ -55,7 +55,7 @@ With the update of v1 website and the creation of the pool incentives AELIP, it 
 
 In the createPool method called by a sponsor, there will be an array of NFT collection based structs passed into the method as a single argument, which defines which collections can access the pool and the Investment token rules for each collection.
 
-When an Investor calls the purchasePoolTokens method on the contract, the function will loop over all the structs and determine if this is a NFT deal and how many Investment tokens the investor may deposit. 
+When an Investor calls the purchasePoolTokens method on the contract, the function will loop over all the structs and determine if this is a NFT deal and how many Investment tokens the investor may deposit.
 
 For an ERC-721 collection pool, there are 3 potential rules that may be created for an investor holding a NFT:
 
@@ -65,15 +65,15 @@ For an ERC-721 collection pool, there are 3 potential rules that may be created 
 
 Under scenario 1, any investor holding a qualified NFT may participate in the pool but the NFT they participate with is blacklisted after the deposit event. If an investor holds multiple NFTs they must select the one they want to use before a deposit event. The remaining NFTs they hold remain eligible for participating in the deal at a later point in time.
 
-Under scenario 2, an investor has access to a specific allocation per wallet no matter how many qualified NFTs they hold and all the tokens in their wallet will be blacklisted at the end of the transaction. If the investor wishes to have a higher allocation they must split the NFTs between multiple wallets before participating in the deal.
+Under scenario 2, an investor has access to a specific allocation per wallet no matter how many qualified NFTs they hold and all the tokens in their wallet will be blacklisted at the end of the transaction.
 
 Under scenario 3, an investor gets a specific allocation per NFT held. Each time they participate they must select the NFTs they are using for their allocation and they may invest up to the allocation per NFT times the amount of NFTs they hold. At the end of a transaction the contract will blacklist each NFT they have minted against even if they have not used their full allocation for that NFT.
 
 For blacklisted NFTs, Aelin contracts will track which NFTs they have minted against so if anyone aims to use the same ones on a different address it can be blocked. The remaining rules of the Aelin pool function as normal.
 
-For ERC-1155 contracts, the logic works a bit differently since it is a collection of both fungible and non-fungible tokens. For these collections we are limited in the number of NFTs we can support since the IDs need to be passed in as an array. 
+For ERC-1155 contracts, the logic works a bit differently since it is a collection of both fungible and non-fungible tokens. For these collections we are limited in the number of NFTs we can support since the IDs need to be passed in as an array.
 
-ERC-1155 contracts may be used to support deals where investors holding a small amount of qualified NFTs or certain minimum amount of a fungible token to participate. E.g. only investors with at least 3 swords in their wallet from a collection of 10,000 identical swords may participate in a deal. 
+ERC-1155 contracts may be used to support deals where investors holding a small amount of qualified NFTs or certain minimum amount of a fungible token to participate. E.g. only investors with at least 3 swords in their wallet from a collection of 10,000 identical swords may participate in a deal.
 
 Since it is not always possible to distinguish between an ID of a NFT and a fungible token in an ERC-1155 contract, we do not blacklist tokens once an Investor has participated, otherwise a fungible token with many holders could be blacklisted by a single investor. Therefore, in order to make it fair for everyone in an ERC-1155 pool without a blacklisting option, investors can always deposit as much as they want per pool as a qualified investor. If too much is invested, every investor in the pool will be deallocated as per the current Aelin Pool logic.
 
