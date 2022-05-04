@@ -41,8 +41,6 @@ An example of this in practice is as follows: If the AELIP had a very significan
 
 Core contributors will not be eligible for this reward. Council members are eligible to receive this reward; however, will be required to recuse themselves from voting. If more than one council member is responsible for co-authoring an AELIP, it will not be eligible for rewards. Additionally, the AELIN council reserves the right to disqualify an AELIP from being eligible for a reward for any reason such as if it does not introduce a meaningful change, it has been unnecessarily split into multiple AELIPs to gain additional rewards, etc.
 
-If the deal is created by a council address, there is no requirement for AELIN to be bonded (primarily for the purpose of creating “upfront deals”). 
-
 ### Rationale
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
