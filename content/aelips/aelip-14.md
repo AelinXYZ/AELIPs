@@ -2,7 +2,7 @@
 aelip: 14
 network: Ethereum & Optimism
 title: Updated Tokenomics
-status: Vote_Pending
+status: Approved
 author: Alex the Bored Ape and cb0x (@AlexTheBoredApe) (@cb0x)
 Release: Bernard
 Implementor: n/a
