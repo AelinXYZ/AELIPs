@@ -19,9 +19,9 @@ This AELIP proposes to add a new upfront deal mechanism for when a deal is alrea
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-As observed multiple since the launch of Aelin Protocol, when a sponsor or a project creates a pool it is possible that a deal has already been discussed and agreed on. This AELIP will be adding new pool and deal contracts so this specific case can be handled properly and so the workflow can be simplified for both sponsors and investors. Pool and deal terms will both be created at the same time, and the deal will need to be funded by the counter party for the pool to be opened to investors. By sending their funds to the pool, investors will automatically accept the deal.
+As observed multiple times since the launch of Aelin Protocol, when a sponsor or a project creates a pool it is possible that a deal has already been discussed and agreed on. This AELIP proposes to add new factory contracts so the workflow for when a deal is known in advance can be simplified for both sponsors and investors. Pool and deal terms will both be created at the same time, and then when the deal is funded by the counter party, the pool will be open for investors. By sending their funds to the pool, investors will automatically accept the deal.
 
-At then end of the time window in which investors can enter the pool, deal tokens will be deallocated based on how much the target raise was vs how much money is in the pool. If a deallocation occurs, they will then be able to withdraw their funds from the deal.
+At then end of the time window in which investors can enter the pool, deal tokens will be deallocated based on how much the target raise was vs how much money is in the pool. If a deallocation occurs, investors will be able to withdraw their funds from the deal.
 
 No change will be made to the vesting schedule logic. Investors will be able to claim and vest their tokens according to what was decided in the deal.
 
@@ -29,7 +29,7 @@ No change will be made to the vesting schedule logic. Investors will be able to 
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-The current state of the protocol only allows sponsors to create a pool as a first step, inviting investors to send funds without knowing what the deal will be. When the pool closes, a deal may be presented and funded, and investors can decide if whether or not they accept it or withdraw their funds from the pool.
+The current state of the protocol only allows sponsors to create a pool as a first step, inviting investors to send funds without knowing what the deal will be. When the pool closes, a deal may be presented and funded, and investors can decide if they want to accept the deal or withdraw their funds from the pool.
 
 This model works perfectly well for when a sponsor needs to know how much funds they can raise through a pool before making a deal with a counter party. Then they both can discuss the terms (amount of tokens, price, vesting...etc) based on how much there is in the pool. Going to the counter party and discussing deal terms before knowing how much interest the community has for the project itself could be a waste of time if at the end, not enough money has been raised.
 
@@ -43,8 +43,8 @@ As mentioned earlier, there are some cases in which these steps could be unneces
 
 This AELIP will require the addition of two new contracts:
 
-- AelinPoolDealFactory (name is just a placeholder): Same function as the original AelinPoolFactory contract except it will instantiate a new type of pool.
-- AelinPoolDeal: Contract for the new pool with the upfront deal.
+- AelinUpfrontDealFactory: Same function as the original AelinPoolFactory contract except it will instantiate a new type of pool.
+- AelinUpfrontDeal: Contract for the new pool with the upfront deal.
 
 To create a pool with an upfront deal, `createPool` will require new parameters, used to set the deal terms. Since the structure of a deal will remain the same, we can expect these parameters to be the same as the ones we find in the `createDeal` function.
 
@@ -52,13 +52,13 @@ When instantiating a pool with an upfront deal, both pool and deal will be creat
 
 Some changes are required in the way investors will be interacting with a pool. Since the deal is known at the time of pool creation, there is no need for them to accept or reject a deal after entering the pool. Therefore, open redemption period won't be applicable in this pool scenario. A `claim` function will be added in order for them to automatically convert their pool tokens to deal tokens after the investment period is closed. Deal tokens will be allocated according to how much money there is in the pool. If a deallocation is needed, investors will also get a refund of their unused funds when claiming their deal tokens. The vesting schedule mechanism will stay identical as in the current state of the protocol.
 
-After the end of the investment period, the counter party will be able to claim the investment tokens, using a `claimInvestmentTokens` function.
+After the end of the investment period, the counter party will be able to claim the investment tokens along with any unredeemed deal tokens, using a `holderRedeemTokens` function.
 
 ### Rationale
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
-Having an upfront deal at the same time a pool is created seemed to be the easiest and the most relevant to solve this problem.
+Having an upfront deal factory for when a deal is known ahead of time is the cleanest way to solve the problem of removing additional steps for investors. Trying to embed it in the current set of factories would add a ton of complexity and confusion to the codebase. We are opting for maximum functionality first and then looking at the simplest implementation, which in this case is a new set of factory contracts.
 
 ### Technical Specification
 
