@@ -1,0 +1,70 @@
+---
+aelip: 21
+network: Optimism
+title: Pool Filtering
+status: Draft
+author: Ser Link (@S3rLink)
+Release: n/a
+Implementor: n/a
+created: 05-20-2022
+---
+
+## Simple Summary
+
+<!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
+
+This AELIP proposes to increase users’ confidence in Aelin raises by introducing a way in which the council, a limited number of other trusted people, and community members may leverage their reputation to vouch for reputable pool sponsors. Users will then have the ability to filter the “All pools” user interface to show only pools that have attained a reputation level they are willing to consider for investment.
+
+## Abstract
+
+<!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
+
+This AELIP proposes to establish a way for trusted addresses to express confidence in a sponsor and for users to then be able to filter the user interface such that it is cleaner and only shows trusted pools while still allowing the protocol to be accessible to all sponsors.
+
+## Motivation
+
+<!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
+
+There is currently no way in which legitimate sponsors may differentiate their pool from pools that are malicious or spam. So far 3 pools have resulted in a deal being brought to users (out of a total of over 40 pools created excluding the Aelin raise). There is nothing in place to prioritize legitimate pools on the user interface resulting in legitimate pools becoming less visible as new, potentially spam pools are created. This has contributed to a lack of user confidence in many sponsors which has resulted in increasingly lower pool participation by users. Lower pool participation has made it difficult for serious sponsors to raise the amount of capital required to negotiate a deal on behalf of the users. It is critical for the protocol to create a way in which legitimate sponsors can demonstrate / market their legitimacy and hold their vouchers accountable via their reputation for the sponsor’s performance.
+
+## Specification
+
+### Overview
+
+<!--This is a high-level overview of *how* the AELIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
+
+Once a pool is created, the sponsor may solicit the council, certain people the council has awarded vouching rights to, and community members with an ENS address to vouch for their pool. This will allow users to filter the user interface based on the extent that a pool has been vouched for.
+
+The first and default filter will be to show only pools that have either been vouched for directly by the Aelin council or by people the council has delegated this right to. For instance, the Aelin council may determine to allow addresses such as one associated with Optimism or Kain.eth to vouch for a pool. Receiving the support of either of the council or trusted vouchers represents the highest level of trust a pool is able to receive and is notated with a tick mark. This does not indicate any degree of due diligence that has been performed or provide an expectation of investment performance, but rather is an attestation that the sponsor is known, not believed to be a scammer, and that users can expect to receive the token that they paid for.    
+
+The next level of vouching can be performed by any community member with an ENS address. This won’t give a tickmark to the pool since it isn’t the highest level of reputational vouching, but it will add an additional layer that can be filtered to differentiate from pools who have not been vouched for at all. Since any ENS address will have the ability to perform this basic vouch function, users will need to review the listing of addresses that have vouched for the pool to determine if addresses they trust have signaled support for the pool they are considering investing in.
+
+Aelin council members are disallowed from directly vouching from pools.
+
+### Rationale
+
+<!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+
+As evidenced by the number of spam pools that now represent the large majority of pools on the user interface, it is critical for the protocol to establish a way for sponsors to market the legitimacy of their pool. Establishing an additional evaluation metric serves the interest of sponsors who wish to bring a deal to users, but who have not yet built a strong reputation within the community. Additionally, it is important for users to have the ability to customize their filter to only view quality pools if they wish.
+
+### Technical Specification
+
+<!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
+
+Add a “vouch” function in the pool smart contract which will emit a “vouched” event. This event can then be indexed by the graph, which will be fetched from the UI. Every pool in the UI will have a vouch section showing addresses and ENS. If a pool hasn’t been vouched, it will be hidden by default in the UI.
+
+Additionally, there will be a new contract deployed that will be owned by the Aelin Council with a sole method called “delegateVouch”, where only the Council may call it with an address that the Council trusts to vouch for a pool.  
+
+### Test Cases
+
+<!--Test cases for an implementation are mandatory for AELIPs but can be included with the implementation..-->
+
+N/A
+
+## Configurable Values (Via ACCP)
+
+N/A
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
