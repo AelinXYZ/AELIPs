@@ -11,7 +11,7 @@ created: 05-20-2022
 
 ## Simple Summary
 
-This AELIN proposes to draft a proposal to the Optimism network for an OP token grant. Aelin Protocol has been allocated a grant of 900K OP tokens in total, pending approval of a grant proposal.
+This AELIP proposes to draft a proposal to the Optimism network for an OP token grant. Aelin Protocol has been allocated a grant of 900K OP tokens in total, pending approval of a grant proposal.
 
 Our proposal is that OP tokens will be sold in an Aelin pool to the Optimism community at roughly the same terms as the most recent fundraising round, by our calculations this is approximately 1.10 sUSD per OP token. There will be a 1 year vesting cliff followed by a 3 year linear vesting period.
 
