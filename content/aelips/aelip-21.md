@@ -1,6 +1,6 @@
 ---
 aelip: 21
-network: Optimism
+network: Optimism & Mainnet
 title: Pool Filtering
 status: Draft
 author: Ser Link (@S3rLink)
