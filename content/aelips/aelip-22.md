@@ -3,7 +3,7 @@ aelip: 22
 network: Optimism
 title: Optimism Proposal
 status: Draft
-author: Alex the Bored Ape, Kain, and cb0x (@AlexTheBoredApe) (@cb0x) (@kain)
+author: Alex the Bored Ape, Kain and cb0x (@AlexTheBoredApe) (@cb0x) (@kaiynne)
 Release: n/a
 Implementor: n/a
 created: 05-20-2022
