@@ -2,7 +2,7 @@
 aelip: 17
 network: Optimism
 title: AELIP Rewards
-status: Vote_Pending
+status: Approved
 author: Ser Link (@S3rLink)
 Release: n/a
 Implementor: n/a
