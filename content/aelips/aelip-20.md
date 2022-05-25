@@ -1,7 +1,7 @@
 ---
 aelip: 20
 network: Optimism & Mainnet
-title: Interim Inflation
+title: Interim Rewards + Aelin Treasury Allocation
 status: Vote_Pending
 author: Alex the Lizard (@AlexTheLizard)
 Release: n/a
@@ -12,6 +12,8 @@ created: 05-13-2022
 ## Simple Summary
 
 The new AELIN tokenomics from AELIP-14 remove inflationary rewards from the protocol, replaced by a buyback and distribution mechanism. This AELIP proposes to continue temporary protocol inflation for 12 months so stakers may continue earning yield before the new tokenomics have time to go into effect.
+
+Additionally, the protocol will now retain ~50% of the AELIN tokens after the temporary inflation period is finalized. 15% of the AELIN tokens will be set aside for CC payments, both now and into the future. The remaining 35% will be used for future AELIN pools and rewards programs.
 
 ## Abstract
 

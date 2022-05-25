@@ -23,7 +23,7 @@ In addition to being able to access OP tokens, Aelin has a pool incentive progra
 
 ## Motivation
 
-An uncapped Aelin pool targeting $990,000 worth of OP tokens at the price equivalent to the most recent fundraising round will bring liquidity to the Optimism network from investors looking to participate in the deal. This deal will motivate L1 investors to move funds for the first time to Optimism and lead to a growth of both liquidity and network utilization within a few days/weeks.
+This pool will highlight the ability of AELIN protocol to offer the same terms VCs get to community members. An uncapped Aelin pool targeting $990,000 worth of OP tokens at the price equivalent to the most recent fundraising round will bring liquidity to the Optimism network from investors looking to participate in the deal. This deal will motivate L1 investors to move funds for the first time to Optimism and lead to a growth of both liquidity and network utilization within a few days/weeks.
 
 ## Specification
 
