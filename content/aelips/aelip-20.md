@@ -2,7 +2,7 @@
 aelip: 20
 network: Optimism & Mainnet
 title: Interim Inflation
-status: Draft
+status: Vote_Pending
 author: Alex the Lizard (@AlexTheLizard)
 Release: n/a
 Implementor: n/a
