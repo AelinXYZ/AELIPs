@@ -3,7 +3,7 @@ aelip: 22
 network: Optimism
 title: Optimism Proposal
 status: Draft
-author: Alex the Bored Ape (@AlexTheBoredApe), Kain (@kaiynne), cb0x (@cb0x)
+author: cb0x (@cb0x), Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a
 created: 05-20-2022
@@ -13,17 +13,26 @@ created: 05-20-2022
 
 This AELIP proposes to draft a proposal to the Optimism network for an OP token grant. Aelin Protocol has been allocated a grant of 900K OP tokens in total, pending approval of a grant proposal.
 
-Aelin's proposal is that OP tokens will be sold in an Aelin pool to the Optimism community at roughly the same terms as the most recent fundraising round,w which by our calculations is approximately 1.10 sUSD per OP token. There will be a 1 year vesting cliff followed by a 3 year linear vesting period.
+The OP tokens will be distributed to Aelin users, following the plan below:
+
+- 40% to LP stakers (AELIN/ETH), distributed weekly over a 6 month period
+- 60% to a pool incentive program. Each new pool created on Optimism over $100,000 will be eligible for OP rewards if not disavowed by the Aelin council (see AELIP-21 3). An amount equivalent to 3% of the total value of the pool will be distributed at pro-rata to investors who accepted the deal.
 
 ## Abstract
 
-Users who have already bridged to Optimism tend to stay and remain active, the key is to provide sufficient utility for new users to want to bridge in the first place. This unique opportunity to participate in the OP launch will likely drive significant liquidity to be deposited onto Optimism, much of this liquidity is likely to stay as new users discover the range of protocols that are already deployed to Optimism.
+Incentivising LPs with OP tokens on top of the current AELIN incentives will significantly increase the number of stakers on Aelin Protocol, which will lead to an increase in volume on other protocols such as Uniswap and Arrakis.
 
-In addition to being able to access OP tokens, Aelin has a pool incentive program running that will provide 2-3% AELIN rewards for all investors participating in the pool. On top of these rewards, AELIN will commit another 15 AELIN as rewards to investors participating in our first OP pool.
+The pool incentive program will provide a 3% rebate of all accepted deals on the Aelin protocol. This amount will be sufficient to fully cover the Aelin protocol fee of 2% as well as an additional 1% which may offset the sponsor fee (if applicable) or simply provide an additional incentive to invest in the deal to obtain additional OP tokens. Aelin expects several deals will be conducted on the protocol over the next several months which will require investors to migrate capital to Optimism to participate in a meaningful way as the deals may be oversubscribed and require additional capital to attain their desired allocation in the deal.
+
+This incentive gives investors increased motivation to participate at a significantly reduced cost.
+
+The staking rewards program will be distributing 360,000 OP tokens over a 6 month period. The pool incentive program doesn’t have a time limit; however, is expected to support tens of millions in deal volume depending on the value of the OP token when the deal is accepted.
 
 ## Motivation
 
-This pool will highlight the ability of AELIN protocol to offer the same terms VCs get to community members. An uncapped Aelin pool targeting $990,000 worth of OP tokens at the price equivalent to the most recent fundraising round will bring liquidity to the Optimism network from investors looking to participate in the deal. This deal will motivate L1 investors to move funds for the first time to Optimism and lead to a growth of both liquidity and network utilization within a few days/weeks.
+Users who have already bridged to Optimism tend to stay and remain active, the key is to provide sufficient motivation for new users to bridge in the first place.
+
+Incentivising both liquidity providers and investors on Aelin will likely drive significant liquidity to be deposited onto Optimism. We expect a very high retention of this liquidity as new users discover the range of protocols that are already deployed to Optimism. Additionally, many of the deals conducted on Aelin include vesting terms which require the capital to stay on Optimism.
 
 ## Specification
 
