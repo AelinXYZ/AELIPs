@@ -6,7 +6,7 @@ status: Draft
 author: JVK
 Release: TBD
 Implementor: TBD
-created: 2022-06-02, Amended by author 22-06-03
+created: 06-02-2022
 ---
 
 ## Simple Summary
@@ -34,7 +34,7 @@ N/A
 ### Overview
 
 Apply AELIP-13 and AELIN-22 to Kwenta Pool/Raise on a retroactive basis.
-Terms all per AELIP-13 and AELIP-22, applied retroactively for the Kwenta Pool/Raise.  
+Terms all per AELIP-13 and AELIP-22, applied retroactively for the Kwenta Pool/Raise.
 
 ### Rationale
 
