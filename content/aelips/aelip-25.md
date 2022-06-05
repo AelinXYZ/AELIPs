@@ -1,5 +1,5 @@
 ---
-## aelip: 25
+aelip: 25
 network: N/A
 title: Pool Disclosure Requirements
 status: Draft
