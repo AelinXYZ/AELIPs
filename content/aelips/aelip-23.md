@@ -2,7 +2,7 @@
 aelip: 23
 network: Optimism & Mainnet
 title: Underlying deal token factory
-status: Vote_Pending
+status: Approved
 author: cb0x (@cb0x)
 Release: n/a
 Implementor: cb0x (@cb0x)

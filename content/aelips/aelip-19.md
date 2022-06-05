@@ -2,7 +2,7 @@
 aelip: 19
 network: Ethereum & Optimism
 title: Direct deal pools
-status: Vote_Pending
+status: Approved
 author: Alex the Bored Ape and cb0x (@AlexTheBoredApe) (@cb0x)
 Release: n/a
 Implementor: n/a
