@@ -17,15 +17,11 @@ This AELIP proposes to establish a program to standardize disclosures from pools
 
 Pools that are interested in co-marketing and Aelin Council filtering support are required to complete basic disclosures. These basics disclosures surround multiple sections, they are as follows:
 
-Project Info
-
-Founding Team Identity
-
-Project Business Plan
-
-Tokenomics
-
-Other Risks and Disclosures
+- Project Info
+- Founding Team Identity
+- Project Business Plan
+- Tokenomics
+- Other Risks and Disclosures
 
 All of these sections will help to ensure that pools that are presented on the Aelin UI within the Aelin Council filter, fit within high standards of disclosure and that users have a high degree of certainty of what they're investing in.
 
@@ -37,82 +33,61 @@ As Aelin is a completely trustless platform, many pools have been created which 
 
 ### Overview
 
-## Steps for Disclosure
+#### Steps for Disclosure
 
-Step 1: Pool Sponsor / Protocol submits required disclosure information to the Aelin Council.
+- Step 1: Pool Sponsor / Protocol submits required disclosure information to the Aelin Council.
 
-Step 2: Aelin Council reviews information and responds with a decision, this decision is based on if the pool has submitted the required disclosure information. If your pool requires more information, the Aelin Council will respond with what additional information is required.
+- Step 2: Aelin Council reviews information and responds with a decision, this decision is based on if the pool has submitted the required disclosure information. If your pool requires more information, the Aelin Council will respond with what additional information is required.
+
+- Step 3: Once you’ve been approved, the Aelin Council will signal on the Aelin UI that your pool has the “Aelin Council Disclosure Checkmark of Approval” with a link to your disclosure information.
+
+- Step 4: Once approved, the Aelin Council will signal its support of the pool and the ‘Aelin Council’ filter will show its support as well.
 
 Note - The Aelin Council reserves the right to deny a pool for any reason.
 
-Step 3: Once you’ve been approved, the Aelin Council will signal on the Aelin UI that your pool has the “Aelin Council Disclosure Checkmark of Approval” with a link to your disclosure information.
+#### Required Disclosure Information - Hosted on Mirror and inserted into the Aelin UI.
 
-Step 4: Once approved, the Aelin Council will signal its support of the pool and the ‘Aelin Council’ filter will show its support as well.
-
-# Required Disclosure Information - Hosted on Mirror and inserted into the Aelin UI.
-
-## Project Info:
+```
+Project Info:
 
 Name:
-
 Website:
-
 Socials:
-
-```
 Twitter:
-
 Discord:
-
-```
-
 Docs:
-
 Est. Launch Date:
 
-## Founding Team Identity:
+Founding Team Identity
 
 Anon/ Non Anon Founders/Devs:
-
 Projects launched in the past:
-
 Github of Devs (to show competency):
-
 Other Current Commitments:
-
 Are you willing to have a call with the Aelin Council to discuss the project? (yes/no):
 
-## Business Plan:
+Business Plan
 
 Market Analysis:
-
 Product Explanation:
-
 Growth Strategy:
-
 Bull case:
-
 Bearcase:
-
 Expected use of Capital:
 
-## Tokenomics:
+Tokenomics
 
 Token use-case:
-
 Supply breakdown:
-
 Inflation and Fee allocation (if applicable fee):
-
 Vesting information for contributors/angels/vc’s/ etc:
-
 Distribution:
 
-## Risks and Disclosures:
+Risks and Disclosures
 
 Audits:
-
 Risks of Project:
+```
 
 ### Rationale
 
