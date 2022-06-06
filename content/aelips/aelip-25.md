@@ -72,7 +72,7 @@ Market Analysis:
 Product Explanation:
 Growth Strategy:
 Bull case:
-Bearcase:
+Bear case:
 Expected use of Capital:
 
 Tokenomics
