@@ -25,9 +25,11 @@ Pools that are interested in co-marketing and Aelin Council filtering support ar
 
 All of these sections will help to ensure that pools that are presented on the Aelin UI within the Aelin Council filter, fit within high standards of disclosure and that users have a high degree of certainty of what they're investing in.
 
+It's important to note that the Aelin Council is only mandating certain disclosures from the project, and it is impossible to determine if any project is completetly legitimate and free of issues. Please do your own research.
+
 ## Motivation
 
-As Aelin is a completely trustless platform, many pools have been created which are obvious frauds. In a path towards improving the quality of pools featured on the Aelin pools UI, this AELIP should allow for pools to be endorsed by the Aelin Council based on filling out a template of disclosure for the pool.
+As Aelin is a completely trustless platform, many pools have been created which are obvious frauds. In a path towards improving the quality of pools featured on the Aelin pools UI, this AELIP should allow for pools to be endorsed by the Aelin Council based on filling out a template of disclosure for the pool. 
 
 ## Specification
 
@@ -86,6 +88,7 @@ Distribution:
 Risks and Disclosures
 
 Audits:
+Project References (Ex: Kain Warwick may be a project reference for Aelin/Synthetix):
 Risks of Project:
 ```
 
