@@ -2,7 +2,7 @@
 aelip: 24
 network: Optimism
 title: Retroactive Incentivized Pool
-status: Draft
+status: Vote_Pending
 author: JVK
 Release: TBD
 Implementor: TBD

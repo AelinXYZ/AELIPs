@@ -2,7 +2,7 @@
 aelip: 25
 network: N/A
 title: Pool Disclosure Requirements
-status: Draft
+status: Vote_Pending
 author: Matt
 Release: n/a
 Implementor: n/a
@@ -29,7 +29,7 @@ It's important to note that the Aelin Council is only mandating certain disclosu
 
 ## Motivation
 
-As Aelin is a completely trustless platform, many pools have been created which are obvious frauds. In a path towards improving the quality of pools featured on the Aelin pools UI, this AELIP should allow for pools to be endorsed by the Aelin Council based on filling out a template of disclosure for the pool. 
+As Aelin is a completely trustless platform, many pools have been created which are obvious frauds. In a path towards improving the quality of pools featured on the Aelin pools UI, this AELIP should allow for pools to be endorsed by the Aelin Council based on filling out a template of disclosure for the pool.
 
 ## Specification
 
