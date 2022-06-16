@@ -13,13 +13,13 @@ created: 06-18-2002
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-This AELIP proposes to temporary stop the current staking rewards program on Optimism.
+This AELIP proposes stop the current staking rewards program on Optimism.
 
 ## Abstract
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-Aelin Protocol is currently incentivizing AELIN stakers by distributing 29 AELIN to Pool 1 and 44 AELIN to Pool 2 every month. This AELIP proposes to temporary stop this program.
+Aelin Protocol is currently incentivizing AELIN stakers by distributing 29 AELIN to Pool 1 and 44 AELIN to Pool 2 every month. This AELIP proposes to end this program.
 
 ## Motivation
 
@@ -48,7 +48,7 @@ Based on the current price of AELIN at the time of writing this AELIP, the distr
 
 Stopping the staking rewards program seems to be the wisest solution for now. It will eventually flush out all the wallets which were only staking to farm and dump, and only people who strongly believe in the project in the long term will continue holding and buying.
 
-Note: this AELIP proposes to temporary stop the rewards program. It is not permanent and could be re-started in a few months if all the conditions mentioned above are better. Aelin Protocol is also in touch with other AMM's which could potentially incentivize stakers instead of the treasury.
+Note: Aelin Protocol is also in touch with other AMMs which could potentially incentivize AELIN stakers instead of the treasury.
 
 ### Technical Specification
 
