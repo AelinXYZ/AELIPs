@@ -2,7 +2,7 @@
 aelip: 26
 network: Optimism
 title: Staking rewards program termination
-status: Draft
+status: Vote_Pending
 author: cb0x (@cb0x)
 Release: n/a
 Implementor: n/a
