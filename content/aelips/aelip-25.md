@@ -2,7 +2,7 @@
 aelip: 25
 network: N/A
 title: Pool Disclosure Requirements
-status: Vote_Pending
+status: Approved
 author: Matt
 Release: n/a
 Implementor: n/a

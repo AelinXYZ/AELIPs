@@ -2,7 +2,7 @@
 aelip: 22
 network: Optimism
 title: Optimism Proposal
-status: Draft
+status: Vote_Pending
 author: cb0x (@cb0x), Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a
@@ -28,6 +28,11 @@ This incentive gives investors increased motivation to participate at a signific
 
 The staking rewards program will be distributing 360,000 OP tokens over a 6 month period. The pool incentive program doesn’t have a time limit; however, is expected to support tens of millions in deal volume depending on the value of the OP token when the deal is accepted.
 
+The pool incentive program will be starting on July 7th. Every pool created after that date will be eligible for the OP tokens distribution. If the grant is sent later after the start date, rewards will be distributed retroactively.
+The LP incentive program will be starting as soon as the grant is sent to the treasury.
+
+Both programs will be active with the condition that Aelin gets its grant proposal approved by Optimism. In case of a refusal, this AELIP will be deprecated.
+
 ## Motivation
 
 Users who have already bridged to Optimism tend to stay and remain active, the key is to provide sufficient motivation for new users to bridge in the first place.
@@ -38,7 +43,7 @@ Incentivising both liquidity providers and investors on Aelin will likely drive 
 
 ### Overview
 
-The proposal will be submitted per the Optimism network guidelines
+The proposal will be submitted per the Optimism network guidelines.
 
 ### Rationale
 
