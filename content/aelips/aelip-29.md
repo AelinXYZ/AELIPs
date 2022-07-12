@@ -3,7 +3,7 @@ aelip: 29
 network: Optimism
 title: AEGIS Payment Removal
 status: Draft
-author: Matt
+author: Matt (@MattLosquadro)
 Release: n/a
 Implementor: n/a
 created: 07/11/22
@@ -11,14 +11,13 @@ created: 07/11/22
 
 ## Simple Summary
 
-This Aelip proposes to completetly remove AELIP 11 and to stop payments for the Discord Aegis.
+This Aelip proposes to terminate [AELIP-11](https://aelips.aelin.xyz/aelips/aelip-11) and to stop payments for the Discord Aegis.
 
 ## Abstract
 
-AELIP-11 paid each AEGIS $250 per month for their discord moderation, as of right now it isn't necessary to continue these payments due to the overall state of the market and that these moderaters have agreed to continue unpaid.
+AELIP-11 paid each AEGIS $250 USD per month for their discord moderation. As of right now it isn't necessary to continue these payments due to the overall state of the market.
 
-While this was a good test at the time, it isn't necessary anymmore.
-
+The moderators understand the situation and have agreed to continue unpaid.
 
 ## Motivation
 
@@ -28,6 +27,7 @@ Same as abstract
 
 ### Overview
 
+N/A
 
 ### Rationale
 
@@ -35,11 +35,11 @@ N/A
 
 ### Technical Specification
 
-Same as overview
+N/A
 
 ### Test Cases
 
-TBD
+N/A
 
 ## Copyright
 
