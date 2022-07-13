@@ -19,7 +19,7 @@ Ending incentives for Pool 2 (AELIN/ETH) could drastically decrease the liquidit
 
 This AELIP proposes to run a trial for a period of 4 weeks with [Velodrome](https://app.velodrome.finance). Aelin treasury will be distributing voting rewards (also called "bribes") in OP in order to maximise the VELO rewards emitted to the AELIN/ETH pool. This means LPs will be earning VELO instead of AELIN.
 
-It is important to note that the Velodrome DAO will be matching rewards with Aelin treasury (around $8,000 USD in total per week), making emissions of VELO larger that the previous token incentives program.
+It is important to note that the Velodrome DAO will be matching rewards with Aelin treasury (around $8,000 USD in total per week), making emissions of VELO larger than the previous token incentive program.
 
 ## Motivation
 
