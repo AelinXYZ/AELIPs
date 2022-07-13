@@ -1,8 +1,8 @@
 ---
 aelip: 22
 network: Optimism
-title: Optimism Proposal
-status: Vote_Pending
+title: OP Distribution
+status: Draft
 author: cb0x (@cb0x), Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a
@@ -20,7 +20,7 @@ The OP tokens will be distributed to Aelin users, following the plan below:
 
 ## Abstract
 
-Incentivising LPs with OP tokens on top of the current AELIN incentives will significantly increase the number of stakers on Aelin Protocol, which will lead to an increase in volume on other protocols such as Uniswap and Arrakis.
+Incentivising LPs with OP tokens on top of the current AELIN incentives will significantly increase the number of stakers on Aelin Protocol, which will lead to an increase in volume on other protocols such as Uniswap, Arrakis or Velodrome.
 
 The pool incentive program will provide a 3% rebate of all accepted deals on the Aelin protocol. This amount will be sufficient to fully cover the Aelin protocol fee of 2% as well as an additional 1% which may offset the sponsor fee (if applicable) or simply provide an additional incentive to invest in the deal to obtain additional OP tokens. Aelin expects several deals will be conducted on the protocol over the next several months which will require investors to migrate capital to Optimism to participate in a meaningful way as the deals may be oversubscribed and require additional capital to attain their desired allocation in the deal.
 
