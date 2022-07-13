@@ -15,7 +15,7 @@ This AELIP proposes to run a month long trial of Velodrome AMM incentives for th
 
 ## Abstract
 
-Ending incentives for Pool 2 (AELIN/ETH) could drastically decrease the liquidity for AELIN on chain. To protect investors from too much slippage whenever they are trying to buy or sell AELIN, it is important to keep that liquidity at a decent level.
+Ending incentives for Pool 2 (AELIN/ETH) could drastically decrease the liquidity for AELIN on chain. To protect investors from too much slippage whenever they are trying to buy or sell AELIN, it is important to keep that liquidity at a sufficient level.
 
 This AELIP proposes to run a trial for a period of 4 weeks with [Velodrome](https://app.velodrome.finance). Aelin treasury will be distributing voting rewards (also called "bribes") in OP in order to maximise the VELO rewards emitted to the AELIN/ETH pool. This means LPs will be earning VELO instead of AELIN.
 
@@ -23,12 +23,10 @@ It is important to note that the Velodrome DAO will be matching rewards with Ael
 
 As described in [AELIP-22](https://aelips.aelin.xyz/aelips/aelip-22), the current distribution of OP will follow the plan below:
 
-- 40% to LP stakers (AELIN/ETH), distributed weekly over a 6 month period
+- 40% to LP stakers (AELIN/ETH), or equivalent program to maintain liquidity on the AELIN/ETH pair
 - 60% to a pool incentive program
 
-Since this AELIP is linked with LP incentives, the OP tokens will be taken from the 40% kept to incentive LP stakers. A total of $16,000 USD in OP will be taken from this allocation to run this trial. If results are satisfying at the end of the 4 weeks, another AELIP might be presented to extend this program.
-
-The OP distribution to stakers will happen on the Velodrome pool. LPs on Velodrome will receive a `vAMM-AELIN/ETH` token which they will be able to stake in a new staking contract provided by Aelin Protocol in order to earn OP.
+Since this AELIP is linked with LP incentives, the OP tokens will be taken from the 40% kept to reward LPs. A total of $16,000 USD in OP will be taken from this allocation to run this trial. If results are satisfying at the end of the 4 weeks, another AELIP might be presented to extend this program.
 
 ## Motivation
 
