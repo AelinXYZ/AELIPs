@@ -2,7 +2,7 @@
 aelip: 27
 network: Optimism
 title: SNX staker aidrop claim termination
-status: Draft
+status: Vote_Pending
 author: AlexTheBoredApe (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a
