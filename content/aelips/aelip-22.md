@@ -2,7 +2,7 @@
 aelip: 22
 network: Optimism
 title: OP Distribution
-status: Vote_Pending
+status: Approved
 author: cb0x (@cb0x), Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a

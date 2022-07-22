@@ -2,7 +2,7 @@
 aelip: 28
 network: Optimism
 title: Velodrome Liquidity Incentives
-status: Vote_Pending
+status: Approved
 author: Matt and cb0x (@MattLosquadro) (@cb0x)
 Release: n/a
 Implementor: n/a
