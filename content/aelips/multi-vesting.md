@@ -19,7 +19,7 @@ This AELIP proposes adding the ability for deal creators to configure multiple v
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-This AELIP also proposes modifications to the Up Front Deal contracts; including `AelinUpFrontDeal.sol`, `AelinUpFrontDealFactory.sol`, and the `IAelinUpFrontDeal.sol` interface. Up Front Deals already work on a price per token input model, these changes will allow multiple prices to be set to correspond with different `vestingCliffPeriod` and `vestingPeriod` inputs, enabling different vesting schedules to be purchased at different prices.
+This AELIP proposes modifications to the Up Front Deal contracts; including `AelinUpFrontDeal.sol`, `AelinUpFrontDealFactory.sol`, and the `IAelinUpFrontDeal.sol` interface. Up Front Deals already work on a price per token input model, these changes will allow multiple prices to be set to correspond with different `vestingCliffPeriod` and `vestingPeriod` inputs, enabling different vesting schedules to be purchased at different prices.
 
 For the traditional pool-deal contracts, this AELIP proposes a refactor to use a price per deal token purchassing model like the direct deals instead of pricing the underlying deal tokens by the `_purchaseTokenTotalForDeal` and `_underlyingDealTokenTotal` inputs when creating the deal.
 
@@ -27,15 +27,15 @@ When a deallocation occurs, all users will be deallocated at the same rate regar
 
 Purchasers will be able to purchase in any combination of the available vesting schedules in different transactions.
 
-Nothing will change to in the process of minting deal tokens once the purchasing period is over. If a user has purchased in multiple vesting schedules, all deal tokens will be minted at once and the vesting logic to manage the different schedules' unlocks is handled in the contracts. 
+If a user has purchased in multiple vesting schedules, all deal tokens will be minted at once and the vesting logic to manage the different schedules' unlocks is handled in the contracts.
 
-A purchaser will be able to individually manage their tokens for multiple vesting schedules or all at once. Meaning that a purchaser can claim the available unlocked underlying tokens from one vesting schedule, or all at once.
+A purchaser will be able to individually manage their tokens for each vesting schedule or all schedules at once. Meaning that a purchaser can claim the available unlocked underlying tokens from one vesting schedule, or all at once.
 
 ## Motivation
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-The current state of the protocol only allows for one vesting schedule and one static price. If a deal creator wants to offer different prices and/or schedules, they would have to create multiple deal contracts; all requiring the creator to determine the token amount they want to sell at that price point up front, fragmenting the token quantities available for each price point.
+The current state of the protocol only allows for one vesting schedule and one static price. If a deal creator wants to offer different prices and/or schedules, they would have to create multiple deal contracts; all requiring the creator to determine the token amount at that price point up front, fragmenting the token quantities available for each price point.
 
 By offering the ability for a deal creator to set multiple price points and vesting schedules, it fixes this token quantity fragmentation issue allowing the creator to have one contract to manage the deal and deposit the underlying. The main motivation being to increase the flexibility/configurability of deals so that deal creators have more tools to create the deal that works best for them, and allow them to offer more options for purchasers.
 
