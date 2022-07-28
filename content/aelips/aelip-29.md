@@ -2,7 +2,7 @@
 aelip: 29
 network: Optimism
 title: AEGIS Payment Removal
-status: Approved
+status: Implemented
 author: Matt (@MattLosquadro)
 Release: n/a
 Implementor: n/a

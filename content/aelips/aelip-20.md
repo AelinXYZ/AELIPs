@@ -2,7 +2,7 @@
 aelip: 20
 network: Optimism & Mainnet
 title: Interim Rewards + Aelin Treasury Allocation
-status: Approved
+status: Implemented
 author: Alex the Lizard (@AlexTheLizard)
 Release: n/a
 Implementor: n/a
