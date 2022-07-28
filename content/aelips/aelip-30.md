@@ -13,7 +13,7 @@ created: 07-25-2022
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-This AELIP proposes adding the ability for deal creators to configure multiple vesting schedules within the same deal to be sold at different prices. The purchaser will be able to choose the vesting schedule they prefer for the corresponding token price. 
+This AELIP proposes adding the ability for deal creators to configure multiple vesting schedules within the same deal to be sold at different prices. The purchaser will be able to choose the vesting schedule they prefer for the corresponding token price.
 
 ## Abstract
 
@@ -21,7 +21,7 @@ This AELIP proposes adding the ability for deal creators to configure multiple v
 
 This AELIP proposes modifications to the Up Front Deal contracts; including `AelinUpFrontDeal.sol`, `AelinUpFrontDealFactory.sol`, and the `IAelinUpFrontDeal.sol` interface. Up Front Deals already work on a price per token input model, these changes will allow multiple prices to be set to correspond with different `vestingCliffPeriod` and `vestingPeriod` inputs, enabling different vesting schedules to be purchased at different prices.
 
-For the traditional pool-deal contracts, this AELIP proposes a refactor to use a price per deal token purchassing model like the direct deals instead of pricing the underlying deal tokens by the `_purchaseTokenTotalForDeal` and `_underlyingDealTokenTotal` inputs when creating the deal.
+For the traditional pool-deal contracts, this AELIP proposes a refactor to use a price per deal token purchasing model like the direct deals instead of pricing the underlying deal tokens by the `_purchaseTokenTotalForDeal` and `_underlyingDealTokenTotal` inputs when creating the deal.
 
 When a deallocation occurs, all users will be deallocated at the same rate regardless of the vesting schedule.
 
@@ -65,7 +65,7 @@ Pricing will no longer be calculated by the `_purchaseTokenTotalForDeal` and `_u
 
 For the traditional pool-deal contracts, going through the refactor to use the price per deal token model will make the architecture more like the direct deals for consistency and allow future upgrades to be implemented more easily.
 
-The Up Front Deals contracts were designed with variable prices in mind; because they already works on a price per deal token purchasing model, it is simple to expand this to use arrays/nested mappings for different vesting schedules at different price rates. It allows for greater configurability when creating deals without the need for a large refactor. 
+The Up Front Deals contracts were designed with variable prices in mind; because they already works on a price per deal token purchasing model, it is simple to expand this to use arrays/nested mappings for different vesting schedules at different price rates. It allows for greater configurability when creating deals without the need for a large refactor.
 
 Some small tradeoffs being added function inputs, slight increase in contract size for `AelinUpFrontDeal.sol`, slightly more gas for some of the function calls.
 
