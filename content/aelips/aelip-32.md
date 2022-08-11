@@ -12,11 +12,11 @@ created: 08/11/22
 
 ## Simple Summary
 
-This AELIP proposes extend AELIP 28 by another 2 months for Velodrome AMM incentives for the AELIN/ETH pool. Aelin treasury will be distributing $4,000 USD per week, paid for in OP tokens received in the Phase 0.
+This AELIP proposes extend AELIP 28 indefinitely for Velodrome AMM incentives for the AELIN/ETH pool. Aelin treasury will be distributing $4,000 USD per week, paid for in OP tokens received in the Phase 0.
 
 ## Abstract
 
-This AELIP proposes to continue the trial in AELIP-28 for another 3 months or until Velodrome does not continue matching rewards, at that point another proposal will be prepared. As of right now, Velodrome matches our $4,000 per week with another 50%, so it is imperative that we stick with this number for now.
+This AELIP proposes to continue the trial in AELIP-28 indefinitely. 
 
 Aelin treasury will be distributing voting rewards (also called "bribes") in OP in order to maximise the VELO rewards emitted to the AELIN/ETH pool. This means LPs will be earning VELO instead of AELIN.
 
