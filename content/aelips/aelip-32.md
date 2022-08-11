@@ -1,7 +1,7 @@
 
 ---
 
-## aelip: 32
+## aelip: 33
 network: Optimism
 title: Velodrome Liquidity Incentives
 status: Draft
@@ -12,7 +12,7 @@ created: 08/11/22
 
 ## Simple Summary
 
-This AELIP proposes extend AELIP 28 by another 2 month long trial of Velodrome AMM incentives for the AELIN/ETH pool. Aelin treasury will be distributing $4,000 USD per week, paid for in OP tokens received in the Phase 0.
+This AELIP proposes extend AELIP 28 by another 2 months for Velodrome AMM incentives for the AELIN/ETH pool. Aelin treasury will be distributing $4,000 USD per week, paid for in OP tokens received in the Phase 0.
 
 ## Abstract
 
