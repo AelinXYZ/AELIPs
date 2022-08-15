@@ -1,7 +1,5 @@
 ---
-
-## aelip: 33
-
+aelip: 33
 network: Optimism
 title: Velodrome Liquidity Incentives
 status: Vote_Pending
@@ -9,6 +7,7 @@ author: Matt
 Release: n/a
 Implementor: n/a
 created: 08/11/22
+---
 
 ## Simple Summary
 
