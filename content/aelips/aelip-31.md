@@ -2,7 +2,7 @@
 aelip: 31
 network: Optimism
 title: Deal Fee Rewards
-status: Draft
+status: Vote_Pending
 author: AlexTheLizard (@AlexTheLizard)
 Release: n/a
 Implementor: n/a

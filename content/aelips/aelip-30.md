@@ -2,7 +2,7 @@
 aelip: 30
 network: Ethereum & Optimism
 title: Multiple Vesting Schedules
-status: Draft
+status: Vote_Pending
 author: 0xIsuRuss (@0xIsuRuss)
 Release: n/a
 Implementor: 0xIsuRuss
