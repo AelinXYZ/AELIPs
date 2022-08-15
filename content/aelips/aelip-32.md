@@ -1,5 +1,5 @@
 ---
-aelip: #32
+aelip: 32
 network: Optimism
 title: Increased OP Token Incentive for Deals
 status: Vote_Pending
