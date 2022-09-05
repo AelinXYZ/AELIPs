@@ -2,7 +2,7 @@
 aelip: 25
 network: N/A
 title: Pool Disclosure Requirements
-status: Approved
+status: Implemented
 author: Matt (@MattLosquadro)
 Release: n/a
 Implementor: n/a

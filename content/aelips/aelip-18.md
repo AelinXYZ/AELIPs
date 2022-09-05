@@ -2,7 +2,7 @@
 aelip: 18
 network: Optimism
 title: Cap Sponsor Fee at 15%
-status: Approved
+status: Implemented
 author: Matt (@MattLosquadro)
 Release: n/a
 Implementor: n/a

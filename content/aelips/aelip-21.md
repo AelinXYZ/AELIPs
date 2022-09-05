@@ -2,7 +2,7 @@
 aelip: 21
 network: Optimism & Mainnet
 title: Pool Filtering
-status: Approved
+status: Implemented
 author: Ser Link (@S3rLink)
 Release: n/a
 Implementor: n/a

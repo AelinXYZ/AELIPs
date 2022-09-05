@@ -2,7 +2,7 @@
 aelip: 16
 network: Ethereum & Optimism
 title: Vesting schedule starts when deal is funded
-status: Approved
+status: Implemented
 author: Alex the Bored Ape and cb0x (@AlexTheBoredApe) (@cb0x)
 Release: n/a
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)

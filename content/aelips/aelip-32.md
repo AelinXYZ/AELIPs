@@ -2,7 +2,7 @@
 aelip: 32
 network: Optimism
 title: Increased OP Token Incentive for Deals
-status: Vote_Pending
+status: Implemented
 author: Ser Link (@S3rLink)
 Release: n/a
 Implementor: n/a
