@@ -39,9 +39,9 @@ When the time of allocating pool tokens to the investors comes, if the raised ca
 Example:
 Let’s imagine the following scenario. A NFT gated uncapped pool is opened by a sponsor, trying to raise 50k sUSD. 10 unique holders each holding 1 NFT invest in the pool. The below table shows the outcome of a laminar allocation.
 
-<img src="../../static/laminar_1.png"  width="300" height="300">
+<img src="/laminar_1.png"  width="300" height="300">
 
-![laminar allocation example image 2](../../static/laminar_2.png 'Laminar Allocation')
+![laminar allocation example image 2](/laminar_2.png 'Laminar Allocation')
 
 NFT Sprinkling:
 Laminar Allocation requires us to add a third allocation mechanism to NFTs in an Aelin deal: “NFT Sprinkling”. The 2 current ways to use NFTs at the moment are:
@@ -64,19 +64,19 @@ The distribution problem is equivalent to the following one: a tube, with a cons
 Proportional:
 In this setup, each tube has a faucet at the bottom. You have to calculate the ratio (Total volume in the tubes/Capital Target).Then mark all the tubes using this ratio. Finally, use the faucets to empty each tube until the marking
 
-![proportional example gif 1](../../static/proportional.gif 'Proportional')
+![proportional example gif 1](/proportional.gif 'Proportional')
 
 Laminar:
 Here, you link all tubes together with 1 faucet at the bottom.
 Simply open the faucet until the tank is filled; gravity will take care of the distribution. Hence the term "Laminar"
 
-![laminar example gif 1](../../static/laminar.gif 'Laminar')
+![laminar example gif 1](/laminar.gif 'Laminar')
 
 Proportional/Laminar output comparison:
 
-<img src="../../static/laminar_3.png"  width="300" height="300">
+<img src="/laminar_3.png"  width="300" height="300">
 
-![laminar allocation example image 4](../../static/laminar_4.png 'Laminar vs Proportional')
+![laminar allocation example image 4](/laminar_4.png 'Laminar vs Proportional')
 
 NFT Sprinkling:
 The only way to skew the allocation of a fixed investment amount is to spread it across multiple NFTs. NFT Sprinkling uses and formalizes this practice. In our use case, it can be considered a positive thing as it provides more utility to the NFTs from a collection and drives value into accumulating more of them. This has the potential to create buying pressure on a collection, increasing its floor value and thus be beneficial for all holders.
