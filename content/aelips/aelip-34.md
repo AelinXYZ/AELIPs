@@ -92,6 +92,8 @@ This holder would need to hold 50 NFTs to reach the same allocation he would hav
 
 Below is an un-optimized python code calculating the laminar distribution that can be used as reference for the developments of the solidity code
 
+![python example image 5](/python_example.png 'Laminar in Python')
+
 ### Test Cases
 
 NA
