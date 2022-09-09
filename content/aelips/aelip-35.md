@@ -11,13 +11,13 @@ created: 09-09-2022
 
 ## Simple Summary
 
-This AELIP proposes for the treasury to sell AELIN tokens in an uncapped pool. Deal terms will be determined by the Aelin council at the conclusion of the first round.
+This AELIP proposes for the treasury to sell AELIN tokens in an uncapped pool. Deal terms will be determined by the Aelin council at the conclusion of the investment window.
 
 This will also amend [AELIP-22](https://aelips.aelin.xyz/aelips/aelip-22) and [AELIP-34](https://aelips.aelin.xyz/aelips/aelip-34) by using the remaining OP tokens to incentivise the investors.
 
 ## Abstract
 
-AELIN tokens will be sold for sUSD in an uncapped pool. Investors will be incentivized with the remaining OP tokens held by the treasury as a bonus for participating in the pool. The council will determine what deal terms will be offered when the investment round closes, depending on the total amount deposited in the pool.
+AELIN tokens will be sold for sUSD in an uncapped pool. Investors will be incentivized with the remaining OP tokens held by the treasury as a bonus for participating in the pool. The council will determine what deal terms will be offered when the investment window closes, depending on the total amount deposited in the pool.
 
 At the time of writing this AELIP, there is currently 866,963.20 OP in the treasury wallet, which is worth approximately $1,030,000 at current prices. All of the OP in the treasury wallet will be distributed which means the number of OP tokens received based on sUSD will vary; however, based on a pool size of $1,000,000 the value of OP tokens received would be greater than 1:1 invested. There could be a significant deviation from this example depending on the size of the pool, number of AELIN tokens sold, price of AELIN tokens, and price of OP tokens.
 
