@@ -3,7 +3,7 @@ aelip: 35
 network: Optimism
 title: Aelin Pool and OP incentives
 status: Draft
-author: cb0x
+author: cb0x (@0xcdb)
 Release: n/a
 Implementor: n/a
 created: 09-09-2022
