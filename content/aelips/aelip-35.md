@@ -2,7 +2,7 @@
 aelip: 35
 network: Optimism
 title: Aelin Pool and OP incentives
-status: Draft
+status: Vote_Pending
 author: cb0x (@0xcdb)
 Release: n/a
 Implementor: n/a
@@ -17,7 +17,7 @@ This will also amend [AELIP-22](https://aelips.aelin.xyz/aelips/aelip-22) and [A
 
 ## Abstract
 
-AELIN tokens will be sold for sUSD in an uncapped pool. Investors will be incentivized with the remaining OP tokens held by the treasury as a bonus for participating in the pool. The council will determine what deal terms will be offered when the investment window closes, depending on the total amount deposited in the pool.
+AELIN tokens will be sold for sUSD in an uncapped pool, with a 48h investment window followed by a 48h deal acceptance window (24h for each round). The pool will be created by aelingov.eth and no sponsor fee will be taken. Investors will be incentivized with the remaining OP tokens held by the treasury as a bonus for participating in the pool. The council will determine what deal terms will be offered when the investment window closes, depending on the total amount deposited in the pool.
 
 At the time of writing this AELIP, there is currently 866,963.20 OP in the treasury wallet, which is worth approximately $1,030,000 at current prices. All of the OP in the treasury wallet will be distributed which means the number of OP tokens received based on sUSD will vary; however, based on a pool size of $1,000,000 the value of OP tokens received would be greater than 1:1 invested. There could be a significant deviation from this example depending on the size of the pool, number of AELIN tokens sold, price of AELIN tokens, and price of OP tokens.
 
