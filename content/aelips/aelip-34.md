@@ -2,7 +2,7 @@
 aelip: 34
 network: Optimism and Mainnet
 title: Laminar Allocation for NFT Gated Deals
-status: Vote_Pending
+status: Approved
 author: SeaGolem (@SeaGolem)
 Release: n/a
 Implementor: n/a

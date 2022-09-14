@@ -2,8 +2,8 @@
 aelip: 35
 network: Optimism
 title: Aelin Pool and OP incentives
-status: Vote_Pending
-author: cb0x (@0xcdb)
+status: Approved
+author: Aelin Council
 Release: n/a
 Implementor: n/a
 created: 09-09-2022
