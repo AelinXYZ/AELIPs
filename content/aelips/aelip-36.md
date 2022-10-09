@@ -1,6 +1,6 @@
 ---
 aelip: 36
-network: N/A
+network: n/a
 title: Mandatory Meetings and Stipend Increase
 status: Vote_Pending
 author: Matt (@MattLosquadro), AlexTheLizard (@AlexTheLizard)
