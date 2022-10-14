@@ -2,7 +2,7 @@
 aelip: 36
 network: n/a
 title: Mandatory Meetings and Stipend Increase
-status: Vote_Pending
+status: Implemented
 author: Matt (@MattLosquadro), AlexTheLizard (@AlexTheLizard)
 Release: n/a
 Implementor: n/a

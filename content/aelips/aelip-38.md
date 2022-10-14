@@ -2,7 +2,7 @@
 aelip: 38
 network: Optimism & Ethereum
 title: Upfront Deals Large, Custom Allow Lists
-status: Vote_Pending
+status: Draft
 author: AlexTheLizard (@AlexTheLizard)
 Release: upcoming
 Implementor: AlexTheLizard
