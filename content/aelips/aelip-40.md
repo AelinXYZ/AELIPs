@@ -2,7 +2,7 @@
 aelip: 40
 network: All networks
 title: Extra info for vouched direct deals
-status: Draft
+status: Vote_Pending
 author: AlexTheLizard (@AlexTheLizard)
 Release: upcoming
 Implementor: AlexTheLizard
