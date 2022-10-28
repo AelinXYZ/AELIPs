@@ -2,7 +2,7 @@
 aelip: 41
 network: All networks
 title: Enable deal token transfer
-status: Vote_Pending
+status: Approved
 author: cb0x (@0xcdb)
 Release: n/a
 Implementor: n/a
