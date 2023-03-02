@@ -79,21 +79,21 @@ In the ABC example above, the protocol is giving away more LP shares to investor
 
 For example, an investor deposits 100 sUSD which is paired with 10 ABC tokens (based on current AMM pricing ratios). Instead of giving the investor LP tokens, the protocol keeps 100% of the LP tokens and gives the investor a higher amount of value (e.g. 150%) of their sUSD in locked ABC tokens (15 ABC) on a vesting schedule. This is similar to other liquidity competitors but has a better UX for investors, since the end user only needs to provide sUSD, never has to interact with ABC token or enter into a LP position, and can reasonably predict the amount of liquidity that will be available as their ABC tokens vest.
 
-Early Unlocks
+_Early Unlocks_:
 It might be necessary to unlock capital from the pool early. For example, if a token migration occurs or if a protocol has successfully grown to the point they are comfortable unlocking all the locked LPs. The logic around unlocking tokens is as follows:
 the holder who deposits single sided rewards can unlock those at any time
 for the LP tokens, the protocol can unlock at any time as long as they dont take more LP tokens than they contributed
 If a protocol takes more LP tokens than they contributed (protocol liquidity growth round), then at least half of the investors who provided capital to the pool need to vote to unlock it
 
-Built-in Protocol Fee Distribution Module
+_Built-in Protocol Fee Distribution Module_:
 It is common for protocols to distribute protocol fees to LPs staked in a pool 2. Vest AMM makes it easy for protocols to distribute protocol fees to locked LPs in vAMMs as an additional way to incentivize deposits or simply as a part of the protocol’s fee distribution. When an investor deposits their paired asset, their LP tokens are locked but they will be automatically enrolled in a multi-token staking rewards contract that allows protocols to distribute protocol fees to locked LPs. Protocol fees sent to locked vAMM LPs may be emitted across a time period set by the protocol and will be claimable by LPs while they are locked in a vAMM.
 
-Aelin Protocol Fees
+_Aelin Protocol Fees_:
 Vest AMM will take a fee equal to 1% of assets deposited as well as 20% of ongoing swap fees from LPs with locked liquidity. The remaining amount of swap fees earned by locked LPs will be reinvested in the AMM; Balancer reinvests swap fees automatically but protocols like Uniswap do not automatically reinvest swap fees so Vest AMM will manage that for LPs in vAMM contracts.
 
 Vest AMM will also take a 1% fee on single sided reward tokens and protocols fees that are distributed to token holders. Fees are only captured when an investor deposits assets so if a protocol creates a vAMM but cancels it before any investor deposits there would be no fees incurred.
 
-Fee example:
+_Fee example_:
 
 1. Protocol offers 100 ABC tokens to be matched against 1,000 sUSD (10 sUSD per ABC token) with a single-sided reward of 1,000 OP tokens to the pool
 2. An investor deposits 100 sUSD, pairing sUSD against 10 of the available ABC tokens
