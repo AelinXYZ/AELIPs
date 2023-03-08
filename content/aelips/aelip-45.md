@@ -1,7 +1,7 @@
 ---
-aelip: 44
+aelip: 45
 network: N/A
-title: Establish a foundation
+title: 6 month council terms
 status: Draft
 author: Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe), cb0x (@0xcdb)
 Release: n/a
@@ -13,19 +13,19 @@ created: 02-12-2023
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-This AELIP proposes to create a foundation with the assistance of legal counsel.
+If passed, this AELIP will increase the duration of the Aelin Council from 3 month terms to 6 month terms.
 
 ## Abstract
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the AELIP is implemented, not *why* it should be done or *how* it will be done. If the AELIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-To prepare for future growth and adoption, Aelin engaged legal counsel to perform a risk assessment and make a recommendation of steps that can be taken to protect Aelin’s DAO members, users, council, and core contributors. One recommendation from legal counsel has been to create an offshore foundation.
+This AELIP proposes to lengthen the duration of council terms for the Aelin Council to 6 month terms.
 
 ## Motivation
 
 <!--This is the problem statement. This is the *why* of the AELIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the AELIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the AELIP will address the issue!-->
 
-Currently Aelin’s entity structure can be optimized to better protect all participants in the ecosystem. With the upcoming release of Vest AMM, Aelin needs to be prepared for the future growth and attention Aelin hopes to receive. This is one step that we can take in advance of this new product so our momentum is not hindered when it is live.
+Currently 3 month terms have been used which may have resulted in voter fatigue and it reduces the council’s ability to execute on their strategy over such a short time period. It is impractical to think that the best strategies will be able to be implemented within a 3 month period, much less allow time for the results of such strategies to be monitored and evaluated.
 
 ## Specification
 
@@ -33,13 +33,13 @@ Currently Aelin’s entity structure can be optimized to better protect all part
 
 <!--This is a high-level overview of *how* the AELIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
-This AELIP will authorize the Aelin council and core contributors to proceed with legal counsel in forming an offshore foundation. Once the foundation is formed, the Aelin council and core contributors will work with legal counsel to manage intellectual property, employment agreements, system for expense payments, etc. related to the foundation.
+Expanding council terms from 3 months to 6 months provides a longer time horizon during which the protocol is committed to a specific vision. This will allow for greater continuity and will reduce the potential for strategic whiplash where the protocol could hypothetically move in a different direction up to 4 times a year.
 
 ### Rationale
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
-Establishing an offshore foundation is an important step to ensuring the continuity of the protocol by creating a structure that protects the DAO members, core contributors, users, and Aelin council.
+6 months is a significant improvement in the amount of time afforded to the Aelin council to set a strategic vision and manage the execution of the strategy.
 
 ### Technical Specification
 
