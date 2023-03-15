@@ -2,7 +2,7 @@
 aelip: 44
 network: N/A
 title: Establish a foundation
-status: Draft
+status: Vote_Pending
 author: Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe), cb0x (@0xcdb)
 Release: n/a
 Implementor: n/a

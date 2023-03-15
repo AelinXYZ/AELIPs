@@ -2,7 +2,7 @@
 aelip: 42
 network: All networks
 title: Vest AMM
-status: Draft
+status: Vote_Pending
 author: Alex the Bored Ape (@AlexTheBoredApe), cb0x (@0xcdb), Ser Link (@S3rLink)
 Release: n/a
 Implementor: n/a
