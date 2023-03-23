@@ -2,7 +2,7 @@
 aelip: 39
 network: Arbitrum
 title: Deploy Aelin on Arbitrum
-status: Approved
+status: Implemented
 author: AlexTheLizard (@AlexTheLizard)
 Release: upcoming
 Implementor: AlexTheLizard

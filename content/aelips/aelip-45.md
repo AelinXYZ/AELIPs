@@ -2,7 +2,7 @@
 aelip: 45
 network: N/A
 title: 6 month council terms
-status: Vote_Pending
+status: Approved
 author: Ser Link (@S3rLink), Alex the Bored Ape (@AlexTheBoredApe), cb0x (@0xcdb)
 Release: n/a
 Implementor: n/a

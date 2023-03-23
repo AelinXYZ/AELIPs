@@ -2,7 +2,7 @@
 aelip: 46
 network: Optimism and Ethereum
 title: Protocol fee distribution
-status: Vote_Pending
+status: Approved
 author: cb0x (@0xcdb), Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: n/a

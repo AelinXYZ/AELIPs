@@ -2,7 +2,7 @@
 aelip: 43
 network: N/A
 title: Establish a DevDAO
-status: Vote_Pending
+status: Approved
 author: Ser Link (@S3rLink), Saeta (@saeta-eth)
 Release: n/a
 Implementor: n/a
