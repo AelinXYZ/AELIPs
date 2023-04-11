@@ -2,7 +2,7 @@
 aelip: 47
 network: All networks
 title: Remove decimal restrictions
-status: Draft
+status: Implemented
 author: Alex the Bored Ape (@AlexTheBoredApe)
 Release: n/a
 Implementor: Alex the Bored Ape (@AlexTheBoredApe)
