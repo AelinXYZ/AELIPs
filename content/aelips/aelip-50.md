@@ -47,7 +47,7 @@ When AELIP #3 was proposed in the initial tokenomics, only 5% of the token suppl
 
 This AELIP is frontrunning our expected product market fit so growth is not slowed by the inability to incentivize our products, external developers, bring on new core contributors, and ensure continuity by locking down current core contributors with competitive token packages. While 20% of the AELIN tokens are being reserved by this protocol, all allocations of tokens still must be approved by the Aelin council. All core contributor tokens will be eligible to be staked across all networks.
 
-<img src="/allocations.png"  width="350" height="350">
+<img src="/allocations.png"  width="650" height="350">
 
 ## Specification
 
