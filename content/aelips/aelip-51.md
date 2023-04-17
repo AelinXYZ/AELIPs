@@ -23,7 +23,7 @@ Displayed in the table below are all of the fees collected by the protocol since
 
 ![Fees collected](/fees_collected.png 'Fees collected')
 
-In line with AELIP-14 and AELIP-31, this AELIP proposes the following distribution:
+This AELIP proposes the following distribution:
 100% of all the fees listed above will be claimable in a merkle tree contract by historical stakers, including AELIN stakers and LP stakers (prior to transition to Velodrome). AELIN stakers will be able to claim two-thirds of the deal fees, while LP stakers will receive one-third of the deal fees. Distribution to both groups will be based on amount staked and time in the contract.
 
 It's crucial to mention that AELIP-14 stipulates that 30% of the protocol fees should be reserved for the treasury. However, this AELIP suggests making an exception to celebrate this first round of distribution. This exception only pertains to this particular distribution round, and the protocol will resume collecting its share of the fees for the next round.
