@@ -2,7 +2,7 @@
 aelip: 51
 network: Optimism
 title: Fee distribution for historical stakers
-status: Approved
+status: Implemented
 author: cb0x (@0xcdb), Alex the Bored Ape (@AlexTheBoredApe), Ser Link (@S3rLink)
 Release: n/a
 Implementor: n/a
