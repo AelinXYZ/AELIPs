@@ -2,7 +2,7 @@
 aelip: 48
 network: Arbitrum
 title: ARB Token Allocation
-status: Draft
+status: Vote_Pending
 author: Ser Link (@S3rLink)
 Release: n/a
 Implementor: n/a
