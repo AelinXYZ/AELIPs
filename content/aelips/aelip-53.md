@@ -23,7 +23,9 @@ The current plan: AELIN holders will have 6 months starting in September to clai
 At the end of February, 2024 all funds that have not been claimed will be reclaimed by the Aelin Council and proportionally sent back to token holders that have claimed. In addition, any currently illiquid tokens on Arbitrum and Mainnet that have become liquid will be liquidated by the Council, bridged to Optimism, and included in the final distribution at the end of February.
 
 To be clear, current AELIN holders only need to claim once on Optimism before the end of February. The final distribution of all unclaimed assets will be handled by the Council at the end of February to ensure maximum distribution of assets back to holders.
-Since the frontend will be shutdown at the end of October, a guide to using Aelin via etherscan will be provided at https://github.com/AelinXYZ/aelin#etherscan in the case that users still need to claim their tokens after October. Finally, the discord will remain open until the end of October as well, at which point it will be deleted.
+
+Since the frontend will be shutdown October 15th, a guide to using Aelin via etherscan will be provided at https://github.com/AelinXYZ/aelin#etherscan in the case that users still need to claim their tokens after October 15th. Finally, the discord will remain open until October 15th as well, at which point it will be deleted.
+
 AELIN holders that exchangeAndBurn within the applicable time period are anticipated to receive roughly 66% of their current market value, based on the current market value of the treasury assets. This outcome seems much more appealing than building a new protocol with insufficient funds.
 
 VestAMM was another major pivot for the Aelin Protocol; however, over the past few months we’ve come to believe that VestAMM could not be delivered, audited, and properly brought to market with the remaining capital held by the Aelin treasury. As such, it made more sense to return value to AELIN holders as soon as it became known that VestAMM was not feasible.
