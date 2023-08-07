@@ -11,8 +11,12 @@ created: 08-07-2023
 
 Dear Aelin community,
 
-It is with a heavy heart that the Aelin Council unanimously proposes the difficult decision for core contributors (CCs) to stop working on the Aelin Protocol. Over the past months and years, the Aelin CCs and Council have worked tirelessly to build Aelin into a promising DeFi protocol. Despite our best efforts and the dedication of all the CCs, we must acknowledge that Aelin did not gain the level of traction we had hoped for.
+It is with a heavy heart that the Aelin Council unanimously proposes the difficult decision for core contributors (CCs) to stop working on the Aelin Protocol.
+
+Over the past months and years, the Aelin CCs and Council have worked tirelessly to build Aelin into a promising DeFi protocol. Despite our best efforts and the dedication of all the CCs, we must acknowledge that Aelin did not gain the level of traction we had hoped for.
+
 Amongst other things, the bear market, coupled with low usage of the protocol, has not given Aelin the necessary momentum to sustain the protocol. Given these circumstances, the members of the Aelin council have each determined that it is in everyone's best interest to stop working on the project and propose to return as much value as possible to AELIN holders via a treasury distribution.
+
 Effective August 7, 2023, all operations on the protocol from the core contributors will cease, but the front-end is expected to remain online until October 15, 2023. While no new pools may be created via the current Aelin front-end, users may still claim their deal tokens from pools or convert their AELIN for a share of treasury assets.
 
 The current plan: AELIN holders will have 6 months starting in September to claim their share of treasury tokens on the Optimism network by sending tokens to an exchangeAndBurn function on a contract we will deploy.
