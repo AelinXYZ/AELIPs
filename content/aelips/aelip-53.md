@@ -2,7 +2,7 @@
 aelip: 53
 network: All networks
 title: Cease Work on Aelin + Treasury Distribution
-status: Vote_Pending
+status: Draft
 author: Aelin Council
 Release: n/a
 Implementor: n/a
