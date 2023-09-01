@@ -17,16 +17,11 @@ Over the past months and years, the Aelin CCs and Council have worked tirelessly
 
 Amongst other things, the bear market, coupled with low usage of the protocol, has not given Aelin the necessary momentum to sustain the protocol. Given these circumstances, the members of the Aelin council have each determined that it is in everyone's best interest to stop working on the project and propose to return as much value as possible to AELIN holders via a treasury distribution.
 
-Effective August 7, 2023, all operations on the protocol from the core contributors will cease, but the front-end is expected to remain online until October 15, 2023. While no new pools may be created via the current Aelin front-end, users may still claim their deal tokens from pools or convert their AELIN for a share of treasury assets.
+Effective August 7, 2023, all operations on the protocol from the core contributors will cease, but the front-end is expected to remain online until February 28, 2024. While no new pools may be created via the current Aelin front-end, users may still claim their deal tokens from pools or convert their AELIN for a share of treasury assets.
 
-The current plan: AELIN holders will have 6 months starting in September to claim their share of treasury tokens on the Optimism network by sending tokens to an exchangeAndBurn function on a contract we will deploy.
-At the end of February, 2024 all funds that have not been claimed will be reclaimed by the Aelin Council and proportionally sent back to token holders that have claimed. In addition, any currently illiquid tokens on Arbitrum and Mainnet that have become liquid will be liquidated by the Council, bridged to Optimism, and included in the final distribution at the end of February.
+AELIN holders may claim their share of treasury tokens indefinitely on the Optimism network by sending tokens to an exchangeAndBurn function on a contract we will deploy. However, before AELIN holders may retrieve their share of treasury assets, they must first agree to a waiver, a copy of which you can read here: https://v2.akord.com/public/vaults/active/2KzfEiio_umg2tFNymCwSp6qt7Yu4phwvqlsQ1b9u4s/gallery#public/df629071-3d77-4538-af9f-c9a6df2897dc. By minting the NFT pursuant to the instructions on this page, AELIN holders will be agreeing to the terms of the waiver.
 
-To be clear, current AELIN holders only need to claim once on Optimism before the end of February. The final distribution of all unclaimed assets will be handled by the Council at the end of February to ensure maximum distribution of assets back to holders.
-
-Since the frontend will be shutdown October 15th, a guide to using Aelin via etherscan will be provided at https://github.com/AelinXYZ/aelin#etherscan in the case that users still need to claim their tokens after October 15th. Finally, the discord will remain open until October 15th as well, at which point it will be deleted.
-
-AELIN holders that exchangeAndBurn within the applicable time period are anticipated to receive roughly 66% of their current market value, based on the current market value of the treasury assets. This outcome seems much more appealing than building a new protocol with insufficient funds.
+Since the frontend will be shutdown February 28, a guide to using Aelin via etherscan will be provided at https://github.com/AelinXYZ/aelin#etherscan in the case that users still need to claim their tokens after February 28. Finally, a support channel in the discord will remain open for posting until February 28th as well, after which point all channels will be locked permanently.
 
 VestAMM was another major pivot for the Aelin Protocol; however, over the past few months we’ve come to believe that VestAMM could not be delivered, audited, and properly brought to market with the remaining capital held by the Aelin treasury. As such, it made more sense to return value to AELIN holders as soon as it became known that VestAMM was not feasible.
 
